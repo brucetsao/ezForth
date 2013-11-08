@@ -39,6 +39,8 @@ fload meta/compiler_Branching_Looping.f
 fload meta/Resolve_metacompiler_forward_references.f
 fload meta/Initialize_User_Variables.f
 \ fload meta/Boot.f
+
+\ fload FileSystem/paths.f
 META
 
 CR .( Unresolved references: ) CR   .UNRESOLVED

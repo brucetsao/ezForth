@@ -788,11 +788,16 @@ ezForth
 			ASM\ASM.ppr
 			ASM\main_asm.f
 			ASM\make_asm.f
-		-FileSystem
+		+FileSystem
 			FileSystem\FileSystem.mpp
-		-kernel
+			FileSystem\paths.f
+			FileSystem\filesystem.f
+		+kernel
 			+ANSI_Forth
 				kernel\ANSI_Forth\ANSI_Forth.mpp
+				kernel\ANSI_Forth\version.f
+				kernel\ANSI_Forth\fkernext.f
+				kernel\ANSI_Forth\fkernel.f
 			+eForth
 				-code
 					kernel\eForth\code\!.f
@@ -844,7 +849,7 @@ ezForth
 				kernel\eForth\eForth.ods
 				kernel\eForth\eForth.ppr
 			kernel\kernel.mpp
-		-meta
+		+meta
 			-Header
 				meta\Header\ELF.f
 			-Output
@@ -974,12 +979,15 @@ ezForth
 32=meta\Boot.f
 33=meta\Including_Assembler.f
 34=ASM\main_asm.f
+35=FileSystem\paths.f
+36=FileSystem\filesystem.f
+37=kernel\ANSI_Forth\version.f
 [Selected Project Files]
 Main=
 Selected=META_main.f
 [META_main.f]
-TopLine=1
-Caret=1,31
+TopLine=7
+Caret=3,43
 [ASM\Arm\thumb2\eForth.f]
 TopLine=53
 Caret=34,89
@@ -1080,5 +1088,14 @@ Caret=1,1
 TopLine=1
 Caret=3,5
 [ASM\main_asm.f]
+TopLine=1
+Caret=1,1
+[FileSystem\paths.f]
+TopLine=35
+Caret=1,1
+[FileSystem\filesystem.f]
+TopLine=6038
+Caret=12,6038
+[kernel\ANSI_Forth\version.f]
 TopLine=1
 Caret=1,1
