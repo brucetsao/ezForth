@@ -1,0 +1,1084 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=E:\www\Forth\ezForth
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+ezForth
+	+ezForth
+		-IO
+			IO\IO.f
+			IO\debug.f
+		-BIOS
+			-ISP
+			-IAP
+			BIOS\IO_device1.F
+		-.git
+			-hooks
+				.git\hooks\README.sample
+			-info
+				.git\info\exclude
+			-logs
+				-refs
+					-heads
+						.git\logs\refs\heads\master
+					-remotes
+						-origin
+							.git\logs\refs\remotes\origin\master
+				.git\logs\HEAD
+			-objects
+				-01
+					.git\objects\01\164ae59b9789d5457243c8e9f8d1eb6f8be45c
+				-02
+					.git\objects\02\1df3b6d00b6284e384a3c82be39f704f6ce222
+					.git\objects\02\b567dc565a4d4deed4fbd6e48b830c4f2b2a54
+				-03
+					.git\objects\03\6226f784b1faa23de04da12b75279d2b5a3f41
+					.git\objects\03\6d183a5d7422f38d40388ea1584cdf49f4ab30
+				-04
+					.git\objects\04\273be60790c2312867b5a0ce52abe70ed41402
+				-05
+					.git\objects\05\5f75feb0ecea7fa207eded968fc92c7d046c0a
+					.git\objects\05\875ea58e7221beb398839e5577b365d0da1a3a
+				-08
+					.git\objects\08\1016340b111dca087472c85632e07939440b8f
+					.git\objects\08\e230d73c1437a637b0399ceb3b1bdf54abaa20
+				-09
+					.git\objects\09\7b28a70323d3889f282e94757fd12bb80e73d6
+					.git\objects\09\abeccc1cc9aaedd6f40e7a46d7e90c17a1b762
+					.git\objects\09\f6c4912a232d9f983d59e10f4628f7b75e301c
+				-0b
+					.git\objects\0b\f68e1b83b530ca9f338021ac555955af58d08c
+				-0c
+					.git\objects\0c\710dfd90ab09d892cb02fea1b97190cf357cbb
+					.git\objects\0c\bc768370e253abf7e3e2b841432b6191a813c0
+					.git\objects\0c\bfacb98a2f5a4522f13399a478755b7de8b3a6
+					.git\objects\0c\ca58053be74c3ebe4e73f0f3ce00e1e4cf2138
+					.git\objects\0c\d318f2061366779c4f79832d14698a79c283e4
+				-0f
+					.git\objects\0f\2672020bd05dfecac1f7cc8809132fc1904eb5
+					.git\objects\0f\b0086168fe0f7e79633787410fac8c22a49382
+				-10
+					.git\objects\10\749235d8443ad252a3479163df50d1fa57da5f
+					.git\objects\10\87c565acb1191b79da735ba2e77cab74199478
+				-11
+					.git\objects\11\3b5805e1d90df3a0b2c82ef867829ff3d1479f
+					.git\objects\11\d1d0c697b31c95931b33e1aa59adddba806fc1
+					.git\objects\11\f2b457b973897a4c92adb235cf11241ed199ef
+				-13
+					.git\objects\13\a167e6ce6aa7b15343fcfc956ccdf4da293e9f
+					.git\objects\13\af2e0bd343f25dca8fcb652ab17fdee6e5e7d6
+				-14
+					.git\objects\14\0a0d4137f99d8164aad644fd28c4b9d0ed33de
+					.git\objects\14\331c8f86d310a83be4017f2cc9a41ce98b3463
+					.git\objects\14\b4d5a74bfc526ade08f3354abb17f489856bd3
+					.git\objects\14\b9119ffe2ea57fd642f745a703093abe88c54b
+				-15
+					.git\objects\15\8c0c989a547e8f9b3684ca5235e7521b29d737
+				-16
+					.git\objects\16\342966b6f118928ac6ee31ff12127760e52958
+					.git\objects\16\5137a37b292f83023784f6b3bb3fc7aad14534
+				-17
+					.git\objects\17\37ccee3cfd666e76a6565df82a9480c5d9b414
+				-19
+					.git\objects\19\d0841703e0dfd8f9fc56c5334ce85d931942f0
+				-1a
+					.git\objects\1a\802ebd7f4ec6facdadc952d0a08fc756eb2649
+					.git\objects\1a\a71744d834446995877f5cf9e71e113867b25a
+				-1b
+					.git\objects\1b\703ced48812cc5e27693c1ec18fe858b883147
+					.git\objects\1b\c8319395a0fb959dbbb6dd808831355521c0dd
+					.git\objects\1b\fd443f0bd3ede91959fb422f5bee3c84d6f02e
+				-1d
+					.git\objects\1d\bd9d4e63ba051125fae366f83d386ca7aa6ad6
+					.git\objects\1d\dce804bd6a048054d0f2e59aea6e98cd5478b4
+				-1e
+					.git\objects\1e\19176b769a46d10487bfc86bff0050c534801a
+					.git\objects\1e\cbb32288ba81d0607b8d7c01bbe02f4c92ebf1
+				-1f
+					.git\objects\1f\465c92f4f73170521dfee51befe9f7c06e7dea
+				-20
+					.git\objects\20\4e9e9a2983bec3a185741773eff9438b873fe7
+					.git\objects\20\80050becd56e7a60664a86d3f46f8fb5594ebc
+				-21
+					.git\objects\21\307b1875e19d375b2dc3fd38fd95adc0b86935
+					.git\objects\21\7017170ce4af28b32cdb11a3d933a1569cd558
+					.git\objects\21\d1c155cccb21ce1074292705b740022c85094b
+				-22
+					.git\objects\22\888b30ae8d818ad1e797931aa9239872e86c07
+					.git\objects\22\f923d21bf79bbd76b2e77b36716f1b55f2ad24
+				-23
+					.git\objects\23\052e3b1e95624f7508e1a6c466fb84d94f0fa9
+					.git\objects\23\9219ea9012ee24b8680b7c00058c10961c969d
+				-24
+					.git\objects\24\21a5f51a601a2a847c92330885dfb554417d90
+					.git\objects\24\5a83d379c06f31bb472f376b4ffcb922581d2e
+					.git\objects\24\b8a081a0ace2a5c002e1c09b9a1a8b0de19434
+					.git\objects\24\da521288132e1cd7d821735ea5031d3f1352b5
+					.git\objects\24\dbbf5d726a118051d9bd48bfed4cc9519a41c1
+				-25
+					.git\objects\25\1f2ce1f5973616b4e24e27cc46618767ba1fcd
+					.git\objects\25\47ec942e7cc2392144650e74e08810dfd272bb
+				-26
+					.git\objects\26\0c9f9186a26dda83006a6a06e6b6b4d392a5a7
+					.git\objects\26\19c87e149b9e3fa690ec83b24a182c830e3496
+					.git\objects\26\7e4d68faa06415365dc075713510f5f041c56d
+					.git\objects\26\e18573429018a4a926cf404bfd6af49bc2f735
+				-27
+					.git\objects\27\64a2d4fe509ee39ecd4f59f027f11d5ee9292a
+					.git\objects\27\6a51010a7c3055c140ec61e889a06814d47137
+					.git\objects\27\ce533cf8b27266f2c0cc7beb215bf0888031e2
+				-28
+					.git\objects\28\3bcd506ae6eed3e09c007bbd7d4f9b8a5ef208
+				-2a
+					.git\objects\2a\e0f368eaae4df177db03c696c536ffef50d873
+				-2c
+					.git\objects\2c\16342105277376bf33be8c38b7087c140e187e
+					.git\objects\2c\9d4d21a012516e22f58c5dad2a868c3a9b609a
+					.git\objects\2c\ba8e903dba7a3dec53ee19db40cd7135cb190f
+				-2d
+					.git\objects\2d\1adb3a1270aba5346872a45b83fe3c2525ef73
+					.git\objects\2d\7f7c461097afe7ec81c94de165082e03a65c5d
+				-2e
+					.git\objects\2e\5b7b4afaa731b36a4c2b06a020497ecb34d865
+					.git\objects\2e\70456b04b349ff90d719f5bb795f59e0913e12
+				-2f
+					.git\objects\2f\070b850c0d188cdc613637f346342cff9bce44
+				-30
+					.git\objects\30\f3bbfe08c5da737a1b4f3d8fb4be3b005be046
+				-31
+					.git\objects\31\031e67a6c0e6c2e8a9b11257413a8a53c1bd6b
+					.git\objects\31\14f8a5c9e7b7f7ac6275918a382e94a68d4433
+					.git\objects\31\81d7f1dcac1b22a7bb6985c22fdc391c2c9bec
+				-32
+					.git\objects\32\57dde4e914f72bc82963ce720ab0c45d7371c9
+				-33
+					.git\objects\33\0f42cd880aa34904634e1712b935b5aaa4684b
+					.git\objects\33\6b6a219f6f27d2f5ef0556a756881241e5cf2f
+					.git\objects\33\c1a6689b227525973f21a813f480117cbe411c
+				-34
+					.git\objects\34\a471aee6dbe7275f026692119faad05bec4750
+				-35
+					.git\objects\35\1b89cd1d512a0ee694ab2b0e4ab7f954d05e59
+					.git\objects\35\9280fac5dff11d988c86bd66cda0671db04422
+					.git\objects\35\eb97d8b1bfd092eba74eb93a6624e57cdafbeb
+				-36
+					.git\objects\36\1814d1e9addd62256533b2292883a43f45c7f2
+					.git\objects\36\55398921a9d5014b8dff3ff14b9f876e3d4781
+					.git\objects\36\a6cb775d094d5aea19f4d051a4545e78859e0e
+				-37
+					.git\objects\37\28ebfac6fb2d659756f6caf7655e646770d8a3
+					.git\objects\37\b2ede0f29fe1e77a1a2b577664a6fcd30d8a18
+					.git\objects\37\c38d7f198a0976b330dccefe385f5029d65a50
+					.git\objects\37\d96815d6c0d9cd3da68015f62c342f4421cf6e
+				-38
+					.git\objects\38\2d83db41853a813c91446b32d0cee12ed0165f
+					.git\objects\38\dc7231aaca9c3897def6ae3e6061e69700339c
+					.git\objects\38\ddea612bb7332ccf216e50cb48bf8d6dba8e0d
+					.git\objects\38\e15759a669fe610ea9232e41542a40ec7996fa
+					.git\objects\38\e72eede408da8b98b2ad0c68d648179526b53b
+				-39
+					.git\objects\39\4d54d9a3214d347075a6a0c5f924fcd7c463b0
+					.git\objects\39\82b81c986c5bfc8d0841fee92590d43b0b7527
+				-3b
+					.git\objects\3b\dedf1ad4d5bf0be8d4ae08d20a5f2aa65fcecd
+				-3d
+					.git\objects\3d\4ab9234914c36ba82a56e33178d4b65c16ae0c
+				-3f
+					.git\objects\3f\6973a0eb64dd36965aaa916ec383ee2f3a8732
+					.git\objects\3f\6a3ab5babab7959b71524a87099b1d8d58779f
+				-40
+					.git\objects\40\392ea04010efae365d55eb8075226b105a057f
+					.git\objects\40\3ffd6e230fe07b2fb6faa3d3c564f10de65e11
+					.git\objects\40\51d30e162e5d84300db503d8fb14df9072a733
+				-41
+					.git\objects\41\2eeda78dc9de1186c2e0e1526764af82ab3431
+					.git\objects\41\b13b76a950c58d8366a92a79e763e239a36931
+				-42
+					.git\objects\42\c8738a4b4097983938dbd7542bfcf55d526af9
+				-44
+					.git\objects\44\6bc55b7b831f5b84082864772d117fd900820c
+				-45
+					.git\objects\45\2f669d1e53940822eaa09a69f9e4dc61153be3
+				-46
+					.git\objects\46\f2d6374e1bd0d80005bf93edffa9f6b7cc12f8
+				-47
+					.git\objects\47\56f1f1ce6860e7416b3b7056cb89aa5ed554d7
+					.git\objects\47\dcc3f366b67e550563fa7d42e7430577b39f8b
+				-48
+					.git\objects\48\10623165384b28f9aa814e3580788608fbe44f
+					.git\objects\48\95d6e88e5b6aa4d4bc60d09d5ef80f1c47b3f2
+					.git\objects\48\985a6d26972282a893a3ab6fbb8f645b37a7fd
+				-49
+					.git\objects\49\167cf94c5966931123f7032a57b0b89962a272
+					.git\objects\49\3de9c65b06401c32339e4f7413bd2a2349ea78
+					.git\objects\49\41f45ab339ead63b211e316121cb7f3167c629
+				-4a
+					.git\objects\4a\10cd73985a989513b54fe0e590544d19c93386
+				-4b
+					.git\objects\4b\3bdf5f08435c39312e00a01d5267aed9b2a43f
+					.git\objects\4b\6e98ba0a87d773bb3e1f11c913727c8b8f3490
+					.git\objects\4b\b214b1faaa44fbe061df626467420b5744cf1c
+				-4c
+					.git\objects\4c\449cd9380e795588a3d4a7a1b8b1c96bae8e86
+					.git\objects\4c\4ff8fb5d619650ef5d1b2502816353fa4e9668
+					.git\objects\4c\898a265d8a008a2cb0c112eec760600fb817f0
+				-4d
+					.git\objects\4d\f1a800dcdc2900eb84d7e14f16b0f0afa8d9fd
+				-4e
+					.git\objects\4e\4433834f9c30d96dfb4999b1a89362608602aa
+					.git\objects\4e\c5f7e229172b666c957741c6f244252582f423
+				-4f
+					.git\objects\4f\451382f3d0e7deb1d640e899a24b8d4a663152
+				-51
+					.git\objects\51\4a5ee62b55c69e9373e548e76a2b793ec37b4d
+				-54
+					.git\objects\54\2f0a9739174a79236191fe6e345fae0ee70b35
+				-55
+					.git\objects\55\0171c83b30516ade82e2b7b97967d110cf5505
+				-57
+					.git\objects\57\f8b0a77d1d32593370d06f086f87b5b8a886ed
+				-58
+					.git\objects\58\2f023e427ab7e891316d5df41e8971e78e4495
+				-59
+					.git\objects\59\cbb26058acb88c79f953d5b83280c952138df2
+					.git\objects\59\d1928dd33a266391d8e45a30482fbb423dce10
+				-5a
+					.git\objects\5a\0cd1622fb9616134931562606a7f72d1eb4b34
+				-5b
+					.git\objects\5b\008a86091f2ebc6a7db3a0f2ff3864ffd936ee
+					.git\objects\5b\5637f9364d4c0739d4fe1ebf1fbe763c98893b
+					.git\objects\5b\fa131ba999a5588b273d8590c47bce0571c54e
+				-5c
+					.git\objects\5c\1abe9cd00d0d287d82f7d078f5483220fe8b1f
+				-5d
+					.git\objects\5d\529360e315492adf80d5a07b197cef9b88d3c8
+					.git\objects\5d\90075e6b9c680746158c64c21823074f2c5119
+					.git\objects\5d\bc67b6edd03ad884a759230ec80da437cdc580
+				-5e
+					.git\objects\5e\9344a4bebd7af6985ef1a784e85efa14ca035d
+					.git\objects\5e\bb09d0d9dea5422589e30ac8c972fbeb264a75
+					.git\objects\5e\bf02307b3ebe7051cf3e0539a79feacc43a057
+				-5f
+					.git\objects\5f\568fc178b76b6efc94ca67b04907c884d076be
+					.git\objects\5f\8645db03dc79511e790190dd1d769fe2e73a31
+					.git\objects\5f\a023f6361cd30a76b23ea4f7943d0339120277
+				-61
+					.git\objects\61\1162298ed08c763bafa095ed51cbde72fbae77
+					.git\objects\61\653901560cdd149c795263c96bb5d4b949aa9e
+				-62
+					.git\objects\62\c2de95517cb471382e11c435f9d8fa7a28b1c0
+				-63
+					.git\objects\63\9868598b48ad179f76ecd3e202158c711b15da
+					.git\objects\63\cc8ebc00096cf0a385e26668d0080e6ffa500c
+				-64
+					.git\objects\64\5f72a882a3605fbac82325d10f4c4f8dc11762
+					.git\objects\64\632da1e595e6c9033678895a5ac896ebb79b63
+					.git\objects\64\d6351de4eeb0059869291e8edd21cb175d2792
+				-65
+					.git\objects\65\b6dcebcc3b6d77358c9b2832e496da28069ce6
+					.git\objects\65\bb8c9fbc4e8b91baa5c3afb5f173d71d2452dc
+				-67
+					.git\objects\67\25637b6f3293acaeb5c539d5432561e11661ab
+					.git\objects\67\6e4c7bf3f5f2967713dd09c07c229e1e89c58c
+					.git\objects\67\75ca2bff0a25fec276e58aa7548b3dd58737f3
+					.git\objects\67\7786a0162716229d44c65836a718a834339850
+					.git\objects\67\7e6ea61ab2cdd396b43136e81b9320ffabe68a
+				-69
+					.git\objects\69\423d6195cf301f54f79507667484078def0a30
+				-6a
+					.git\objects\6a\8edc7dd2a0dd9ba12dae6b1b969f9e16be3ece
+					.git\objects\6a\c4ff535dd3d26a6be43eddfdf30a6a238aacd9
+				-6b
+					.git\objects\6b\5392fabb85a348d942dd4ec9777dbcd581c169
+				-6e
+					.git\objects\6e\576666a45e2924337245261adb459222350375
+				-6f
+					.git\objects\6f\76cfe457dd4409bfe3a62c612cb809d318bc00
+					.git\objects\6f\a38f9da117bc6c8562e6127b5f3a8b450208a4
+				-70
+					.git\objects\70\ab5d6cd1d2a1a4a319d33c1fea11b7c36b1d49
+					.git\objects\70\ac67a341aefbdb0c1c84ea31fc271e95d34996
+				-73
+					.git\objects\73\88d11958f51c8acd58d4f71e8d88126eb6c5ce
+					.git\objects\73\d9c061c1d6985e0a5dc9a1be0d49487c0dc728
+				-74
+					.git\objects\74\5655dcc0be41e448410c95d9a20e555548c644
+				-75
+					.git\objects\75\21dbdae98996faf086a8433284f17af5ceae31
+					.git\objects\75\7c682058e12d438a5451844e3da5f73d3d98bc
+					.git\objects\75\b2db25094c31e8e054a392cdc45027e8ca9446
+				-76
+					.git\objects\76\e82e66063b88a816655794e643ac232926a068
+				-77
+					.git\objects\77\02a008598d80e4453a719c9fa0cdb3ced55300
+					.git\objects\77\11f3608f9ea7965015c08a525c7b678e2b5af4
+					.git\objects\77\59d245f24fb36228c264d72f6f3f98fdab3325
+				-78
+					.git\objects\78\de52fa331a43808b0106837b6bd40d6d6c8327
+				-79
+					.git\objects\79\365ada351ee71fce1c54790d66afcdcdec8551
+					.git\objects\79\be03a6ced0ab5e5352bc40586f3e4897a6972e
+				-7c
+					.git\objects\7c\aedb8f1c73a3c53b71041d1c7895b35cb9c36a
+					.git\objects\7c\c1462b0d14105b07e840ea71e8ae3276ca65e1
+				-7d
+					.git\objects\7d\383e4b6f6e94de768c49c8b4629d39154a9e0c
+				-7e
+					.git\objects\7e\67f63d19d2b64c5dcd8776c4f0a63ac7b94cde
+					.git\objects\7e\a8525ae03d3c3fdaa6db2b942cff0b9a8af9ae
+				-80
+					.git\objects\80\3ae537e21a86cf00f9fe7c1ce7ff58b0862c49
+					.git\objects\80\721d95e50e82caffc49fbf96275411256ba21f
+				-81
+					.git\objects\81\602f13c011886a98aab0c36352269b3c5e6936
+					.git\objects\81\6485216a95b78ec6010f79dacc3bf7469d94c6
+				-82
+					.git\objects\82\853ed2ccebdbd9f677e135c8be274b5ccd363e
+					.git\objects\82\b6eddbe3c134ecf863474c105d211bf18fdc22
+				-83
+					.git\objects\83\24d3388713c7523feae1d93a2037f8d660bfee
+				-84
+					.git\objects\84\2e69e287f1d7faca83407c1e10ef411fee0bea
+					.git\objects\84\f3df3ab9008238301a076206f1e3fab8af585c
+				-85
+					.git\objects\85\01f81f72911ba28f3a5ad6b3b2f2376e9465f9
+					.git\objects\85\7a0f5edd5c0eefe0b8a6842d256bca72511a21
+				-86
+					.git\objects\86\27dfb4781a5d3691ebaccb9728bc0592b41aeb
+					.git\objects\86\5001cc2d572b0212bc350bf8346600cc7971c5
+				-88
+					.git\objects\88\796887fe7a5b24896e0c750b2217a585519747
+				-8a
+					.git\objects\8a\5dda2c5fb40466c13a20b30234e065962bb642
+					.git\objects\8a\e0cd05e6317696ffdef0d27d37ecf5f7dbc3e0
+				-8c
+					.git\objects\8c\f7b160130bce707db649215a18d5fa11491fe8
+				-8d
+					.git\objects\8d\a16dff75be86a4d699cb3719fbc9a4862112c8
+					.git\objects\8d\dbf31588ebd2df48b2ef855096fc9da92017cd
+					.git\objects\8d\dd14ca9da40f0fd7523b17d5ccf9b30cd7f8db
+				-8f
+					.git\objects\8f\2fd4046c69fcb0eeae8ce27ed57cf25dbc8d48
+					.git\objects\8f\fea9ef5e7810e0ed246bed39cabac0228b051b
+				-91
+					.git\objects\91\02ee0190350814d0248d8f06e68327d6710a11
+				-92
+					.git\objects\92\51563fde408674b9734ba67f6d38bfb73752d6
+				-94
+					.git\objects\94\47c6a977dde1f6d795254c42ce211f7a6462c2
+					.git\objects\94\4f7b57e82b7e48a51bd23fb337655ea675e758
+					.git\objects\94\856d567c70586ea5c5e3f75005a574f5d2c25c
+				-95
+					.git\objects\95\530c324084a07a7167ab5892c5a07bcdecc1a8
+				-96
+					.git\objects\96\576f8f007e655de0a3c37ec89a834595828562
+					.git\objects\96\d7f79a553798a7c03c911631ec153cf4fd1a34
+					.git\objects\96\dff0989320a2df74a20ed64e6b06411cfd8b57
+				-97
+					.git\objects\97\3ea5931c555e1c6cfc46af51254d0c0a26da1a
+					.git\objects\97\c2f19109e0bb6d035a053faed8e69d9e4c90e7
+				-98
+					.git\objects\98\03777b58e3ac40b883df560885c333af5f0fdb
+				-99
+					.git\objects\99\851fe964a6eb98de0707b795e308c7bd5618fd
+				-9a
+					.git\objects\9a\55b3d639619c6fd2f0155545f3d89ed3faa57d
+					.git\objects\9a\7e479bbe6676a74b6991fe06e3498c3df8949e
+					.git\objects\9a\817eef60f94a6fa283ceac4e542520d9c0e016
+				-9b
+					.git\objects\9b\3425ca8a600477e1d4245c86ecd88ee54d5c8e
+					.git\objects\9b\7fc9eeba3cab6211ec9ffac946ca612eeae029
+				-9d
+					.git\objects\9d\4d5ef9e8f678c7d0d4e1061ee4e978ca96a322
+				-9e
+					.git\objects\9e\27b462e0546b46b6a9dccb3d702d36486b6362
+					.git\objects\9e\9398fa8edfb0e192e63902b2cc9c9dde5fe8e0
+				-9f
+					.git\objects\9f\29d18fc5c78e5da77d0cb230d885fc65aa94d3
+					.git\objects\9f\acbc2c86a6021ea1272b03bd848ad36a85689a
+					.git\objects\9f\c8a101753132b920c60697b2bcb4475f8f6f79
+					.git\objects\9f\cfec39e23266344f460c29a8327a9afbaf862c
+				-a0
+					.git\objects\a0\7eed475f3bb1f222bb81a06c66298a180b43ac
+				-a1
+					.git\objects\a1\2ceb95ef4f9dc47829872c2a84c086a68449ed
+					.git\objects\a1\75c088360db120edb7368408490f5895454643
+					.git\objects\a1\9fc5edf50a143b11fd07f8fb3fb87ad1d665fe
+				-a4
+					.git\objects\a4\2579714c46d7c2ed3cc53074e4950dd80152a2
+					.git\objects\a4\63c4042232e36a4509dff22858022e7a914f72
+					.git\objects\a4\6fcc1eb5c646ccb0b3d8fc2573dfddbad5f088
+				-a5
+					.git\objects\a5\1cfbcd8a6629ea19c9f424a6f2fcf019374952
+					.git\objects\a5\467cfd269b760426ba9e6532a651a4f16f6d2d
+					.git\objects\a5\56cd7853b0c460ca4a6f7be87e0af2cfecde38
+					.git\objects\a5\defe7f0e344ab0247a2a7b81b2d33c8460c7d7
+				-a6
+					.git\objects\a6\70040627c29143d5e184892bf6bbb17778c4c4
+				-a7
+					.git\objects\a7\8b9dce19a1c769c1561ff80c396d4748ebe0aa
+				-a8
+					.git\objects\a8\dbe684c2836003cf4197d721c871fe5f6a3ee6
+					.git\objects\a8\ea5c7f3d223b66889b0b77ac399eb50ef6316e
+				-aa
+					.git\objects\aa\6d236f3d466dc864b13ea8b6aaa5305418caa7
+					.git\objects\aa\80d2fea94c5ad2c28fb83fd39925b33222a6dc
+				-ab
+					.git\objects\ab\154140071ad8cccd0ec364729e642ed909aee3
+					.git\objects\ab\178677738fe2dc788d3fea4684069774e39cb3
+				-ac
+					.git\objects\ac\654e0b38e50555f9d84778e1928babbe5c0b23
+					.git\objects\ac\e96c4d5f02b974e19f15c083e9042b52735c3e
+				-b0
+					.git\objects\b0\21789ab1d658e98ad5b8cf0b7a40e304b1e4d7
+					.git\objects\b0\a387a74bb6b6ba0b8ff43a3489c618cbad83e9
+					.git\objects\b0\b81288a5885c46f24ee9222a4df1d4241e4071
+				-b1
+					.git\objects\b1\1856b144702654fd44497dd3a4b2e1376f2486
+					.git\objects\b1\d000afcc79fe0526b0a73567d1d25f74c81dcb
+					.git\objects\b1\ebc0562dcceef3aedc96be312fd2c94f2360ea
+				-b3
+					.git\objects\b3\02b26d173146620fc3c96ea3bf0d32fcc90812
+					.git\objects\b3\5b6c195e2e00bc3b9b4a362135dfa6d0439eaf
+				-b5
+					.git\objects\b5\2064eb1a44d2ee8be2023dc0f80a62c0bf1976
+					.git\objects\b5\c637dd2befd90740a3e0fef39cb3cde6ae0ac2
+				-b6
+					.git\objects\b6\33f9035d79a32ccc237ec73cca395e5c73f5b0
+				-b7
+					.git\objects\b7\3f82afa4fe93701bb3a20a31f3126d4df57f6a
+					.git\objects\b7\51abbf30e42691ed880b1edf67c02286d28279
+					.git\objects\b7\51b64ab8780513f446fb8b18f4496073df4c8f
+					.git\objects\b7\86d3d704a3d573d6a4b479b29942a8a5980ec0
+					.git\objects\b7\902ad8e152b162c039410bc798b712cf39049e
+					.git\objects\b7\d74f6eb24dc0c28307a916a790082b6e8a9f2d
+					.git\objects\b7\d7fa28b8b8dcc13ae8ab4213802508e3f5b1d6
+				-b8
+					.git\objects\b8\011bc382a74f5c12ed4a74983d6399414d47ee
+					.git\objects\b8\46f708bf3398d0b9970e07c8ed8681326ec8b6
+					.git\objects\b8\86f0fe95eede264e06afda9eae10fbb4accfd9
+					.git\objects\b8\bb8c9d7891b6b4fc861c19c4f98e630ad50421
+					.git\objects\b8\da6eb069b69dca63baf66304ac34b5b75038a0
+				-b9
+					.git\objects\b9\48e2bc3eace85a4541321fb2f77416086a58c1
+					.git\objects\b9\7e8f4278a85011ee7b17a3b684f30254bf635c
+					.git\objects\b9\d06ed79cdefe94a34b5ae260003617ab27935f
+					.git\objects\b9\d6bd92f5f09e195d6bc19536500b6494dd2b75
+				-ba
+					.git\objects\ba\26b082be010440ded59654387ab3d53090cfb1
+				-bb
+					.git\objects\bb\a128f8e82913a6934e27d37016e864f2892191
+				-bc
+					.git\objects\bc\800edd44240e1846e3b7b260e09f5f622e4fa5
+					.git\objects\bc\ad1ac479e834d3d90f784dfe59703dc6c391eb
+					.git\objects\bc\ca7d00b34c587877fb70bc712cca6bdfbf0c2d
+				-bd
+					.git\objects\bd\2d609d9d605f362b3f64f2c53178e39a3872a6
+				-be
+					.git\objects\be\3b51991183da55da1016ac3500a65f9d48ccd5
+					.git\objects\be\57745ceb480ada424a55fcf2143ee8ab957875
+					.git\objects\be\83b8abe007249ff32eb493b79ab4210d7d2b88
+				-bf
+					.git\objects\bf\9399f0edb6dc768fa3b67594fd3ee293d5f22f
+					.git\objects\bf\c1a79e49d5853de8e8ed6f06f1b002439c373e
+				-c0
+					.git\objects\c0\1632b037de94caffbacbaf2e5529b19f64fbf1
+					.git\objects\c0\287d488f321417c2564c578c4c4c3d401c6a2a
+					.git\objects\c0\2c71126c7c94441e8d56c3f593b222173f6754
+					.git\objects\c0\7716425ba366de851ddf22ad77976d0dd472df
+					.git\objects\c0\ca44dde87dc42a1b08b06a4f0dcba20796b2d8
+				-c1
+					.git\objects\c1\5243767d4e4ddb16b0ac9a4e303188b89cbd83
+					.git\objects\c1\6a048c1e8c23d853a5b48b1bc47e29f8cef1fe
+					.git\objects\c1\6a83ade449a1a8899a203369a4bb8f19da0e2e
+				-c3
+					.git\objects\c3\2253509b8cade7adf0aed2a21e78ffb3feff5c
+					.git\objects\c3\37c5cbd0d5676593ced99fb144eb9f0737cbdd
+					.git\objects\c3\9d25a3604b915848a1b187e0160469c57e4810
+				-c4
+					.git\objects\c4\434bd0235ba05c0c09c763329465c350da5b88
+					.git\objects\c4\630dba040fa6b691ee20e1056f8be77bf3bf36
+					.git\objects\c4\7898192db6afc445040d3dd3466db1dc8cd6e8
+					.git\objects\c4\7cecb8c61ee9fd9a50551f7410d20f7c755dfd
+					.git\objects\c4\cc9c9d366a18e84d73d131a943c103c241a4a7
+					.git\objects\c4\d29ec52cbe3d08c57361fd48f46b4afa8f0765
+				-c5
+					.git\objects\c5\151fb6430754c62bff890b46db2ec7a3df86e8
+					.git\objects\c5\4df626550b0afab7597a195bebf3efc57ac269
+				-c6
+					.git\objects\c6\1f5fc92af26e1371012dd15991fb82458601aa
+				-c7
+					.git\objects\c7\df865b210e73737dfa6c41d5ef18733e4ba296
+				-c9
+					.git\objects\c9\0e48e0ffff6449f0ebaf3adf5c464d5710ffb6
+					.git\objects\c9\1ea180ca449dd1774b11bec2443d9e4864f121
+				-cb
+					.git\objects\cb\46f3794800a8309c566294078d333b7680e246
+					.git\objects\cb\4819a51cbdb1c3155f8ef929e23b1852d97498
+				-cc
+					.git\objects\cc\04b097a6e16a829c5640f46a735a785bd65424
+					.git\objects\cc\5ae3a73fbec34436c3ca2f6c1ea6479e3a58e1
+				-cd
+					.git\objects\cd\5bcf40225281a4412129babafc7e15d180a9f2
+					.git\objects\cd\eb95a9cc3a5f77e45c8ed948fd7ee89b600703
+				-ce
+					.git\objects\ce\44a4c1094af0528718e4daec68f1b9f694736b
+					.git\objects\ce\9f48bd7eb3667f576e9fd96247569524956ff3
+					.git\objects\ce\aab96b8afa3e7bb193b8c401ec00ebc846a83e
+				-cf
+					.git\objects\cf\1618787bbd0725b79dafa3048e543e524cdebf
+					.git\objects\cf\56d1ff117c17a0abb5a4d432d5317be8b81991
+					.git\objects\cf\71110cc0a023e5214532123030f15fcd086b90
+					.git\objects\cf\e5657dfa73a622b2b50136a0cd164f619d7b3b
+				-d0
+					.git\objects\d0\4e569f646b2598b9fb48f7a64cc42f7ae375bd
+				-d1
+					.git\objects\d1\6d138256736930197fd22673b2164cdf3f119d
+				-d2
+					.git\objects\d2\3810c7c400a3613f0e79f982a6b9133ccf68d3
+					.git\objects\d2\3c7442a3da669c00b00154987bf5b3264f1317
+					.git\objects\d2\79a55e1af7dba908689c0e0695dc1fb1ab269b
+				-d4
+					.git\objects\d4\e62880e98726da797f5c668b1f7325134b7b2f
+				-d5
+					.git\objects\d5\1b3e7933521f50e74cb9de4d85fb74e1e2f089
+					.git\objects\d5\34f11412680b37d3fd51f9cc27f3ff1e9ef0ad
+					.git\objects\d5\79a457bd7970a5af40f72fb4c39920007d3dc9
+					.git\objects\d5\7b251b05b0ca574b6c7ff91a03437d15565f9f
+					.git\objects\d5\8e9add0fb5b468ff145d9adefb4113bd6acbed
+					.git\objects\d5\9ed3f83a17ea637e9981dfa42cb4829584c3c4
+					.git\objects\d5\a357092d063aa01e3559e29e5476181adddf72
+					.git\objects\d5\c06a2f0d4557e7a471c116781514007dceca39
+				-d6
+					.git\objects\d6\37b130c1e10bdded9eef7a0315d4a9091fe21c
+				-d7
+					.git\objects\d7\4f3c9865335dc430ad16277c04557e3b22d7d4
+				-d8
+					.git\objects\d8\a1ba0048687bf731a21df17db119afeb57582a
+				-d9
+					.git\objects\d9\18b837e98214d484b1b0a8301ab5158409db3b
+					.git\objects\d9\2383d9827ce09e92d383e4381e9d390013aee1
+					.git\objects\d9\2eb89cc6c7658ec617c138b7c53df87beb0bb4
+				-db
+					.git\objects\db\b0af7fad72f4815a36179d1f913e10c1848903
+					.git\objects\db\c6058832edd6d4fa323906f35199857c020803
+				-dc
+					.git\objects\dc\6290231360f8f9c911e6e32e051b72b4e3fbb5
+					.git\objects\dc\94e858ea80bc1651b8709e1f28a208f351bcf3
+					.git\objects\dc\a01e96e13d652ee45c26f5db56282061c5474b
+					.git\objects\dc\a6d08af1ef9e85db7254d0336d8870eb7f020b
+				-dd
+					.git\objects\dd\2291dc0058bae25e5481786d144313dee101e2
+					.git\objects\dd\3ff0e12655fbcecff6e8226451d2618120e6bd
+				-de
+					.git\objects\de\069ffc962d36da3ef4e26c4e06a166197ee58f
+					.git\objects\de\7102c08997253b2a83c0c74ec511dced4fb729
+					.git\objects\de\7ab89431e04abdc59839c9e71f1263dd299141
+					.git\objects\de\ca2891a99e4175ee093ce6817f644d83f212d0
+					.git\objects\de\cfe02e56ba159eebc8f93ac41ea1181f151425
+					.git\objects\de\ed1ddf47ed4deb53d94c0db75a4bc2840269b8
+				-df
+					.git\objects\df\d4d2f64aa4e7d36d625f7d322f376c851e2c19
+				-e1
+					.git\objects\e1\b9cbf8f475c1fcf4a0273fd94266605cb03ef1
+					.git\objects\e1\c97251c6b21ad3e497c30cca3944682cfa154b
+					.git\objects\e1\dddbea3fe388330bf239d022cf2530d99b251e
+				-e2
+					.git\objects\e2\0d9b4c5277ec56ff5b8d6556d086b441efccb4
+					.git\objects\e2\828f892b999629291f1da7fc9aab4b2a7ba6b1
+					.git\objects\e2\ad5606b95fbced705643d9bd89f08971e18160
+				-e4
+					.git\objects\e4\1b63b2ff1015fd52f757d97401c846d5f879ee
+					.git\objects\e4\b2281303f1dd9c245d11d57fbac5cd6a9e0d02
+					.git\objects\e4\e19a0a6f1b3fe8e1dddf710cab5a93289340a9
+				-e5
+					.git\objects\e5\2531f8dab18e1febfd2e81ed9332f810b312ea
+					.git\objects\e5\83f506f1f99f8151cc2b7906f743dac9e4225d
+				-e6
+					.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+					.git\objects\e6\bbee67cb43d3c6f8df80ece3cebdcf5bef801c
+				-e7
+					.git\objects\e7\505c59a91f4325170cbf1ec81bb32e90a39f18
+					.git\objects\e7\800cfa10d5a8d847f4c16cdc6789d5de8432de
+				-e8
+					.git\objects\e8\ee64de72f82ecc975679643d644d5f932d72bb
+				-e9
+					.git\objects\e9\3442f214a6bf499db05f2fa256f1dfa546b5a1
+					.git\objects\e9\67e468a3d0b00addabf06922430b0f743e75ec
+					.git\objects\e9\d021922201de0dc54cfe2d208b2536d3d66599
+				-ea
+					.git\objects\ea\277a269f2d3bc93ea545f082142fc5303d0798
+					.git\objects\ea\48a04d6cd877aa86f21f140cdd95df56f347bb
+					.git\objects\ea\4c884c8d5e923a995d60098ba1cd6d678d48aa
+				-eb
+					.git\objects\eb\254d7303c8f796aa9d40222b264ac1cf6b0c68
+					.git\objects\eb\52494e1e86225a9a62f9d95243e43404ec7b69
+					.git\objects\eb\afb76fad3da37845bfc2060d8dd516ce153c92
+				-ec
+					.git\objects\ec\719b190a37412a0b8526da4110cf44d7a0d292
+				-ee
+					.git\objects\ee\5ad24590b9fada1e38bd3c9d4369264be0ac8b
+				-ef
+					.git\objects\ef\76f2c4975861bd5688b86f8fd1c9a8aa152cf8
+					.git\objects\ef\be9d56db1b6785dd5344bd140dc4b820df809d
+					.git\objects\ef\e6c722e20fbd5c3055d8be792e2ecd143beb7c
+				-f0
+					.git\objects\f0\e0ef2ab08328d279edf7b8ed4ef6265870fe42
+				-f1
+					.git\objects\f1\37c7698affe8280fd21e4526ba04f572e4d659
+					.git\objects\f1\7e5f146a5487ffbb9dd7b569221d301e6dd9d7
+				-f2
+					.git\objects\f2\401a83cd738ed73ed090d437fe24c298aacbd5
+					.git\objects\f2\44c15e2004c0f5d5ffeed12295865996f346b8
+					.git\objects\f2\70c2e0f0588b5f004acc7ab61d2de7c1550b12
+				-f3
+					.git\objects\f3\098f491381d0c1de44962c128a0e40ff5591f8
+				-f4
+					.git\objects\f4\22e78261edb7d21214e7f119d645152dd25ca5
+					.git\objects\f4\b0ce675241d0f7b5e69798b85213e174388dff
+				-f6
+					.git\objects\f6\923e04cbc58870c670b8529afa44711cb70d5c
+					.git\objects\f6\9a451e718a430bb7addb7099404510b9aea2cd
+					.git\objects\f6\b601a5ec64fc48704a364c10e86d5d74c6abf2
+				-f8
+					.git\objects\f8\8536bf0e8b73c42da3f4ae9d78251d582ff36c
+					.git\objects\f8\e086510c211c38e623d99a16871aeb28cde033
+				-f9
+					.git\objects\f9\6ba93c3a6b57cdd507298def55d67e48ed18d5
+				-fa
+					.git\objects\fa\c95487cb979bfd7cd3126c2822040f5f0eb185
+				-fb
+					.git\objects\fb\0feaaf9acf4032b49b6cd8d266b8600336d9fe
+					.git\objects\fb\8e3e7016b44c17a69d4b154b4a42c1fdb197c0
+				-fc
+					.git\objects\fc\c6b6f544361ad17599f13ded1349bdc30ae121
+				-fd
+					.git\objects\fd\c171433017c115b21a2d9d368c7e03f8cba9c7
+				-fe
+					.git\objects\fe\b0874042e1e50c0805e7022e237a8f941928ae
+					.git\objects\fe\ef027f5f14275b35e03266e791ef61709a287e
+					.git\objects\fe\fb594a54998ac21b39f048a8bea8e8f8e981a4
+				-ff
+					.git\objects\ff\23d53ec6763a6df8e2c509dd92f28d21f6505f
+					.git\objects\ff\d885199aa742b04d4b2a4d4500993c7681b37f
+				.git\objects\tmp_object_git2_a01132
+			-refs
+				-heads
+					.git\refs\heads\master
+				-remotes
+					-origin
+						.git\refs\remotes\origin\master
+			.git\config
+			.git\description
+			.git\FETCH_HEAD
+			.git\HEAD
+			.git\index
+			.git\ORIG_HEAD
+		-ASM
+			+Arm
+				-Arm7
+					ASM\Arm\Arm7\eForth.f
+				-thumb2
+					-ADC
+						ASM\Arm\thumb2\ADC\ADC.f
+						ASM\Arm\thumb2\ADC\ADC.html
+						ASM\Arm\thumb2\ADC\ADC.JPG
+						ASM\Arm\thumb2\ADC\ADC.odt
+						ASM\Arm\thumb2\ADC\ADC_test.f
+						ASM\Arm\thumb2\ADC\ADC1.f
+						ASM\Arm\thumb2\ADC\ADC1.html
+						ASM\Arm\thumb2\ADC\ADC1.odt
+						ASM\Arm\thumb2\ADC\ADC1.s
+						ASM\Arm\thumb2\ADC\ADC1_html_41409676.gif
+						ASM\Arm\thumb2\ADC\ADC1_html_c641759.jpg
+						ASM\Arm\thumb2\ADC\ADC1_html_m5ac7def1.gif
+						ASM\Arm\thumb2\ADC\Thumb2_ADCS.JPG
+					-ADD
+						ASM\Arm\thumb2\ADD\ADD.f
+						ASM\Arm\thumb2\ADD\ADD_1.JPG
+						ASM\Arm\thumb2\ADD\ADD_2.JPG
+						ASM\Arm\thumb2\ADD\ADD_3.JPG
+						ASM\Arm\thumb2\ADD\ADD_4.JPG
+						ASM\Arm\thumb2\ADD\ADD_5.JPG
+						ASM\Arm\thumb2\ADD\ADD_6.JPG
+						ASM\Arm\thumb2\ADD\ADD_7.JPG
+						ASM\Arm\thumb2\ADD\ADD_8.JPG
+						ASM\Arm\thumb2\ADD\ADD_9.JPG
+					-AND
+						ASM\Arm\thumb2\AND\AND.f
+					-B
+						ASM\Arm\thumb2\B\B.f
+					-Instruction Set
+						ASM\Arm\thumb2\Instruction Set\QRC0001_UAL.pdf
+						ASM\Arm\thumb2\Instruction Set\QRC0001H_rvct_v2.1_thumb.pdf
+						ASM\Arm\thumb2\Instruction Set\Thumb-2+Supplement+Reference+Manual.pdf
+					-LDR
+						ASM\Arm\thumb2\LDR\LDR.f
+						ASM\Arm\thumb2\LDR\LDR.JPG
+						ASM\Arm\thumb2\LDR\LDR_20131019pm0204.JPG
+						ASM\Arm\thumb2\LDR\LDR_20131019pm0535.JPG
+						ASM\Arm\thumb2\LDR\LDR_20131019pm1027.JPG
+						ASM\Arm\thumb2\LDR\LDR_test.f
+						ASM\Arm\thumb2\LDR\Thumbs.db
+						ASM\Arm\thumb2\LDR\½Æ»s -LDR.f
+					-LDRB
+						ASM\Arm\thumb2\LDRB\LDR.JPG
+						ASM\Arm\thumb2\LDRB\LDR_20131019pm0204.JPG
+						ASM\Arm\thumb2\LDRB\LDR_20131019pm0535.JPG
+						ASM\Arm\thumb2\LDRB\LDR_20131019pm1027.JPG
+						ASM\Arm\thumb2\LDRB\LDR_test.f
+						ASM\Arm\thumb2\LDRB\LDRB.f
+						ASM\Arm\thumb2\LDRB\Thumbs.db
+						ASM\Arm\thumb2\LDRB\½Æ»s -LDR.f
+					-MOV
+						ASM\Arm\thumb2\MOV\MOV.f
+					-ORR
+						ASM\Arm\thumb2\ORR\ORR.f
+					-STR
+						ASM\Arm\thumb2\STR\STR.f
+						ASM\Arm\thumb2\STR\STR_test.f
+					-STRB
+						ASM\Arm\thumb2\STRB\STR_test.f
+						ASM\Arm\thumb2\STRB\STRB.f
+					-XOR
+						ASM\Arm\thumb2\XOR\XOR.f
+					ASM\Arm\thumb2\EFORTH.bak
+					ASM\Arm\thumb2\eForth.f
+					ASM\Arm\thumb2\eForth_test.f
+					ASM\Arm\thumb2\eFroth VM Thumb2.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131106pm0421.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131107am0119.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131107am1050.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131107pm0212.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131107pm0219.JPG
+					ASM\Arm\thumb2\eFroth VM Thumb2_20131107pm0326.JPG
+					ASM\Arm\thumb2\main_thumb2.f
+					ASM\Arm\thumb2\Thumb2.f
+					ASM\Arm\thumb2\Thumb2.html
+					ASM\Arm\thumb2\Thumb2.JPG
+					ASM\Arm\thumb2\Thumb2.mpp
+					ASM\Arm\thumb2\Thumb2.ods
+					ASM\Arm\thumb2\Thumb2_eForth_20131105pm0011.JPG
+					ASM\Arm\thumb2\thumb2_test.f
+					ASM\Arm\thumb2\Thumbs.db
+			-Intel
+				-Quark_SoC_X1000
+					ASM\Intel\Quark_SoC_X1000\eForth.f
+					ASM\Intel\Quark_SoC_X1000\Quark_SoC_X1000.f
+				-Vortex86EX
+					ASM\Intel\Vortex86EX\eForth.f
+					ASM\Intel\Vortex86EX\Vortex86EX.f
+			ASM\ARG.f
+			ASM\arg.html
+			ASM\arg.JPG
+			ASM\arg.odt
+			ASM\arg_html_m2c1d614c.jpg
+			ASM\arg_html_m6cc88afc.jpg
+			ASM\asm.f
+			ASM\ASM.mpp
+			ASM\ASM.ppr
+			ASM\main_asm.f
+			ASM\make_asm.f
+		-FileSystem
+			FileSystem\FileSystem.mpp
+		-kernel
+			+ANSI_Forth
+				kernel\ANSI_Forth\ANSI_Forth.mpp
+			+eForth
+				-code
+					kernel\eForth\code\!.f
+					kernel\eForth\code\@.f
+					kernel\eForth\code\0_LT.f
+					kernel\eForth\code\AND.f
+					kernel\eForth\code\Arm_eForth.h
+					kernel\eForth\code\branch.f
+					kernel\eForth\code\C!.f
+					kernel\eForth\code\C@.f
+					kernel\eForth\code\code.mpp
+					kernel\eForth\code\dir.bat
+					kernel\eForth\code\dir.txt
+					kernel\eForth\code\doLIST.f
+					kernel\eForth\code\doLIT.f
+					kernel\eForth\code\DROP.f
+					kernel\eForth\code\DUP.f
+					kernel\eForth\code\EXECUTE.f
+					kernel\eForth\code\EXIT.f
+					kernel\eForth\code\FastCode.f
+					kernel\eForth\code\GbaForth.f
+					kernel\eForth\code\GT_R.f
+					kernel\eForth\code\List.txt
+					kernel\eForth\code\Main.f
+					kernel\eForth\code\OR.f
+					kernel\eForth\code\OVER.f
+					kernel\eForth\code\P!.f
+					kernel\eForth\code\P@.f
+					kernel\eForth\code\question_branch.f
+					kernel\eForth\code\R@.f
+					kernel\eForth\code\R_GT.f
+					kernel\eForth\code\ren.bat
+					kernel\eForth\code\RP!.f
+					kernel\eForth\code\RP@.f
+					kernel\eForth\code\SP!.f
+					kernel\eForth\code\SP@.f
+					kernel\eForth\code\SWAP.f
+					kernel\eForth\code\UM+.f
+					kernel\eForth\code\XOR.f
+					kernel\eForth\code\code_main.f
+					kernel\eForth\code\IO.f
+					kernel\eForth\code\debug.f
+				+colon
+					kernel\eForth\colon\colon.mpp
+					kernel\eForth\colon\extension.F
+					kernel\eForth\colon\system.f
+				kernel\eForth\eForth.html
+				kernel\eForth\eForth.mpp
+				kernel\eForth\eForth.ods
+				kernel\eForth\eForth.ppr
+			kernel\kernel.mpp
+		-meta
+			-Header
+				meta\Header\ELF.f
+			-Output
+				meta\Output\Output.f
+			-Table
+				meta\Table\ASCII_BIG_PATTERN_TABLE.f
+				meta\Table\ASCII_PATTERN_TABLE.f
+				meta\Table\Dummy_String.f
+			-VM
+				-Arm
+					meta\VM\Arm\Registers.f
+			meta\ARM7META.f
+			meta\Boot.f
+			meta\branching_constructs.f
+			meta\code_definition_header.f
+			meta\compiler_Branching_Looping.f
+			meta\Create_target_code_words.f
+			meta\create_target_image.f
+			meta\Including_Assembler.f
+			meta\Initialize_User_Variables.f
+			meta\Memory_Access.f
+			meta\Memory_Map.f
+			meta\MemoryMap.f
+			meta\meta.JPG
+			meta\Meta_Compiling.f
+			meta\META_main.f
+			meta\Metacompiling.f
+			meta\Metacompiling_Initialization.f
+			meta\Resolve_metacompiler_forward_references.f
+			meta\target_vocabularies.f
+			meta\Variabler.f
+			meta\Vocanulary_Operations.f
+		-meta-eforth
+			-Header
+				meta-eforth\Header\ELF.f
+			-Output
+				meta-eforth\Output\Output.f
+			-Table
+				meta-eforth\Table\ASCII_BIG_PATTERN_TABLE.f
+				meta-eforth\Table\ASCII_PATTERN_TABLE.f
+				meta-eforth\Table\Dummy_String.f
+			-VM
+				-Arm
+					meta-eforth\VM\Arm\Registers.f
+			meta-eforth\ARM7META.f
+			meta-eforth\Boot.f
+			meta-eforth\branching_constructs.f
+			meta-eforth\code_definition_header.f
+			meta-eforth\compiler_Branching_Looping.f
+			meta-eforth\Create_target_code_words.f
+			meta-eforth\create_target_image.f
+			meta-eforth\dir.bat
+			meta-eforth\dir.txt
+			meta-eforth\Including_Assembler.f
+			meta-eforth\Initialize_User_Variables.f
+			meta-eforth\Memory_Access.f
+			meta-eforth\Memory_Map.f
+			meta-eforth\MemoryMap.f
+			meta-eforth\meta.JPG
+			meta-eforth\meta.mpp
+			meta-eforth\meta.ppr
+			meta-eforth\Meta_Compiling.f
+			meta-eforth\meta_main.f
+			meta-eforth\Metacompiling.f
+			meta-eforth\Metacompiling_Initialization.f
+			meta-eforth\Resolve_metacompiler_forward_references.f
+			meta-eforth\target_vocabularies.f
+			meta-eforth\Variabler.f
+			meta-eforth\Vocanulary_Operations.f
+		.gitattributes
+		.gitignore
+		ezForth.~ml
+		ezForth.mpp
+		ezForth.MSWMM
+		ezForth.ppr
+		ezForth.uml
+		ezForth.wmv
+		ezForth.xmind
+		ezForth_0001.wmv
+		ezForth_20131107pm0518.JPG
+		ezForth_20131108am0031.JPG
+		ezForth20131104am1004.JPG
+		ezForth20131104pm0917.JPG
+		ezForth20131104pm0922.JPG
+		ezForth20131104pm0927.JPG
+		ezForth20131104pm0929.JPG
+		ezForth20131104pm0930.JPG
+		ezForth20131104pm0950.JPG
+		ezForth20131104pm0952.JPG
+		ezForth20131104pm0953.JPG
+		ezForth20131104pm0955.JPG
+		index.html
+		META_main.f
+[Open project files]
+0=META_main.f
+1=ASM\Arm\thumb2\eForth.f
+2=BIOS\IO.f
+3=BIOS\debug.f
+4=meta-eforth\target_vocabularies.f
+5=meta-eforth\Initialize_User_Variables.f
+6=meta-eforth\code_definition_header.f
+7=meta\target_vocabularies.f
+8=meta\code_definition_header.f
+9=kernel\eForth\eForth.html
+10=kernel\eForth\colon\extension.F
+11=kernel\eForth\code\UM+.f
+12=kernel\eForth\code\List.txt
+13=kernel\eForth\code\GbaForth.f
+14=kernel\eForth\code\AND.f
+15=ASM\asm.f
+16=ASM\Arm\thumb2\ADC\ADC.html
+17=ASM\Arm\thumb2\AND\AND.f
+18=kernel\eForth\colon\system.f
+19=IO\IO_device1.F
+20=IO\IO.f
+21=BIOS\IO_device1.F
+22=IO\debug.f
+23=ASM\Arm\Arm7\eForth.f
+24=kernel\eForth\code\branch.f
+25=kernel\eForth\code\C@.f
+26=kernel\eForth\code\dir.txt
+27=kernel\eForth\code\EXIT.f
+28=kernel\eForth\code\code_main.f
+29=meta\create_target_image.f
+30=meta\Create_target_code_words.f
+31=meta\compiler_Branching_Looping.f
+32=meta\Boot.f
+33=meta\Including_Assembler.f
+34=ASM\main_asm.f
+[Selected Project Files]
+Main=
+Selected=IO\debug.f
+[META_main.f]
+TopLine=17
+Caret=60,19
+[ASM\Arm\thumb2\eForth.f]
+TopLine=53
+Caret=34,89
+[BIOS\IO.f]
+TopLine=25
+Caret=1,74
+[BIOS\debug.f]
+TopLine=99
+Caret=1,148
+[meta-eforth\target_vocabularies.f]
+TopLine=20
+Caret=1,34
+[meta-eforth\Initialize_User_Variables.f]
+TopLine=1
+Caret=1,12
+[meta-eforth\code_definition_header.f]
+TopLine=10
+Caret=1,23
+[meta\target_vocabularies.f]
+TopLine=21
+Caret=1,34
+[meta\code_definition_header.f]
+TopLine=10
+Caret=1,23
+[kernel\eForth\eForth.html]
+TopLine=32
+Caret=1,45
+[kernel\eForth\colon\extension.F]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\UM+.f]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\List.txt]
+TopLine=28
+Caret=1,41
+[kernel\eForth\code\GbaForth.f]
+TopLine=230
+Caret=1,243
+[kernel\eForth\code\AND.f]
+TopLine=1
+Caret=1,1
+[ASM\asm.f]
+TopLine=1
+Caret=13,1
+[ASM\Arm\thumb2\ADC\ADC.html]
+TopLine=63
+Caret=1,76
+[ASM\Arm\thumb2\AND\AND.f]
+TopLine=1
+Caret=1,33
+[kernel\eForth\colon\system.f]
+TopLine=554
+Caret=1,571
+[IO\IO_device1.F]
+TopLine=347
+Caret=9,396
+[IO\IO.f]
+TopLine=1
+Caret=3,8
+[BIOS\IO_device1.F]
+TopLine=1
+Caret=1,1
+[IO\debug.f]
+TopLine=1
+Caret=1,1
+[ASM\Arm\Arm7\eForth.f]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\branch.f]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\C@.f]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\dir.txt]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\EXIT.f]
+TopLine=1
+Caret=1,1
+[kernel\eForth\code\code_main.f]
+TopLine=1
+Caret=3,45
+[meta\create_target_image.f]
+TopLine=1
+Caret=1,1
+[meta\Create_target_code_words.f]
+TopLine=1
+Caret=2,12
+[meta\compiler_Branching_Looping.f]
+TopLine=60
+Caret=14,109
+[meta\Boot.f]
+TopLine=1
+Caret=1,1
+[meta\Including_Assembler.f]
+TopLine=1
+Caret=3,5
+[ASM\main_asm.f]
+TopLine=1
+Caret=1,1

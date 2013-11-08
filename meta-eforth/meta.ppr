@@ -1,0 +1,92 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=E:\www\Forth\ezForth\meta
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+meta
+	+meta
+		+Header
+			Header\ELF.f
+		+Output
+			Output\Output.f
+		+Table
+			Table\ASCII_BIG_PATTERN_TABLE.f
+			Table\ASCII_PATTERN_TABLE.f
+			Table\Dummy_String.f
+		+VM
+			+Arm
+				VM\Arm\Registers.f
+		Boot.f
+		branching_constructs.f
+		code_definition_header.f
+		compiler_Branching_Looping.f
+		Create_target_code_words.f
+		create_target_image.f
+		Including_Assembler.f
+		Initialize_User_Variables.f
+		Memory_Access.f
+		Memory_Map.f
+		MemoryMap.f
+		meta.JPG
+		meta.mpp
+		Meta_Compiling.f
+		meta_main.f
+		Metacompiling.f
+		Metacompiling_Initialization.f
+		Resolve_metacompiler_forward_references.f
+		target_vocabularies.f
+		Variabler.f
+		Vocanulary_Operations.f
+[Open project files]
+0=Table\ASCII_BIG_PATTERN_TABLE.f
+1=Table\ASCII_PATTERN_TABLE.f
+2=Memory_Map.f
+3=Metacompiling_Initialization.f
+4=Vocanulary_Operations.f
+5=Meta_Compiling.f
+6=meta_main.f
+7=target_vocabularies.f
+8=Header\ELF.f
+9=Output\Output.f
+[Selected Project Files]
+Main=
+Selected=Meta_Compiling.f
+[Table\ASCII_BIG_PATTERN_TABLE.f]
+TopLine=1
+Caret=1,1
+[Table\ASCII_PATTERN_TABLE.f]
+TopLine=1
+Caret=1,1
+[Memory_Map.f]
+TopLine=41
+Caret=26,18
+[Metacompiling_Initialization.f]
+TopLine=1
+Caret=1,1
+[Vocanulary_Operations.f]
+TopLine=1
+Caret=3,11
+[Meta_Compiling.f]
+TopLine=14
+Caret=47,27
+[meta_main.f]
+TopLine=1
+Caret=36,16
+[target_vocabularies.f]
+TopLine=1
+Caret=5,16
+[Header\ELF.f]
+TopLine=55
+Caret=1,1
+[Output\Output.f]
+TopLine=10
+Caret=14,13

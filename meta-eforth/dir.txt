@@ -1,0 +1,84 @@
+ 磁碟區 E 中的磁碟沒有標籤。
+ 磁碟區序號:  E804-49A7
+
+ E:\www\Forth\ezForth\meta 的目錄
+
+2013/11/07  下午 06:33    <DIR>          .
+2013/11/07  下午 06:33    <DIR>          ..
+2013/11/02  下午 05:32               883 Boot.f
+2013/11/02  下午 05:32             1,155 branching_constructs.f
+2013/11/02  下午 05:32             1,651 code_definition_header.f
+2013/11/02  下午 05:32             3,639 compiler_Branching_Looping.f
+2013/11/02  下午 05:32             2,297 Create_target_code_words.f
+2013/11/02  下午 05:32               348 create_target_image.f
+2013/11/07  下午 06:33                17 dir.bat
+2013/11/07  下午 06:33                 0 dir.txt
+2013/11/04  下午 05:18    <DIR>          Header
+2013/11/02  下午 05:32               530 Including_Assembler.f
+2013/11/02  下午 05:32             2,332 Initialize_User_Variables.f
+2013/11/02  下午 05:32             1,857 MemoryMap.f
+2013/11/02  下午 05:32               965 Memory_Access.f
+2013/11/02  下午 05:32             2,138 Memory_Map.f
+2013/11/02  下午 05:32           318,520 meta.JPG
+2013/11/04  下午 08:50            92,672 meta.mpp
+2013/11/07  下午 06:28             1,411 meta.ppr
+2013/11/02  下午 05:32             1,614 Metacompiling.f
+2013/11/02  下午 05:32                95 Metacompiling_Initialization.f
+2013/11/02  下午 05:32             1,515 Meta_Compiling.f
+2013/11/07  下午 06:28               961 meta_main.f
+2013/11/04  下午 05:18    <DIR>          Output
+2013/11/02  下午 05:32               198 Resolve_metacompiler_forward_references.f
+2013/11/04  下午 05:18    <DIR>          Table
+2013/11/04  下午 05:18    <DIR>          Target
+2013/11/02  下午 05:32             1,848 target_vocabularies.f
+2013/11/02  下午 05:32                97 Variabler.f
+2013/11/04  下午 05:18    <DIR>          VM
+2013/11/02  下午 05:32               434 Vocanulary_Operations.f
+              24 個檔案         437,177 位元組
+
+ E:\www\Forth\ezForth\meta\Header 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+2013/11/02  下午 05:32             3,235 ELF.f
+               1 個檔案           3,235 位元組
+
+ E:\www\Forth\ezForth\meta\Output 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+2013/11/02  下午 05:32               754 Output.f
+               1 個檔案             754 位元組
+
+ E:\www\Forth\ezForth\meta\Table 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+2013/11/02  下午 05:32               606 ASCII_BIG_PATTERN_TABLE.f
+2013/11/02  下午 05:32            16,399 ASCII_PATTERN_TABLE.f
+2013/11/02  下午 05:32               212 Dummy_String.f
+               3 個檔案          17,217 位元組
+
+ E:\www\Forth\ezForth\meta\Target 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+               0 個檔案               0 位元組
+
+ E:\www\Forth\ezForth\meta\VM 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+2013/11/04  下午 05:18    <DIR>          Arm
+               0 個檔案               0 位元組
+
+ E:\www\Forth\ezForth\meta\VM\Arm 的目錄
+
+2013/11/04  下午 05:18    <DIR>          .
+2013/11/04  下午 05:18    <DIR>          ..
+2013/11/02  下午 05:32               292 Registers.f
+               1 個檔案             292 位元組
+
+     檔案數目總計:
+              30 個檔案         458,675 位元組
+              20 個目錄  57,998,434,304 位元組可用
