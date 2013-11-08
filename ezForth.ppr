@@ -17,7 +17,7 @@ ezForth
 		-IO
 			IO\IO.f
 			IO\debug.f
-		-BIOS
+		+BIOS
 			-ISP
 			-IAP
 			BIOS\IO_device1.F
@@ -976,10 +976,10 @@ ezForth
 34=ASM\main_asm.f
 [Selected Project Files]
 Main=
-Selected=IO\debug.f
+Selected=META_main.f
 [META_main.f]
-TopLine=17
-Caret=60,19
+TopLine=1
+Caret=1,31
 [ASM\Arm\thumb2\eForth.f]
 TopLine=53
 Caret=34,89
