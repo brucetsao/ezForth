@@ -1,8 +1,3 @@
-
-
-
-
-\ FLOAD asm/Arm7/ARM7ASM.F
 HEX
 ' AND    alias forthAND
 ' ,      alias forth,
@@ -113,8 +108,19 @@ VARIABLE OLD_SP#                 OLD_SP# OFF
 
 
 
+\ compiler_Branching_Looping.f
+IN-ASSEMBLER
+: $NEXT ( -- )
+ \ -------- ITC Version1 ---------
+ \ WP, IP,            ,MOV                \ get next CFA
+ \ IP, IP, 4 #        ,ADD                \ point to new CFA
+ \ WP                 ,BX                 \ jump to next CFA
+ \ -------- ITC Version2 ---------
 
-
+\  [] PC, IP, 4 #      ,LDR                \ direct jump
+   [IP+4]->PC
+ 
+  ; 
 
 
 

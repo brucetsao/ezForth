@@ -151,7 +151,7 @@ TopLine=1
 Caret=1,1
 [code\OVER.f]
 TopLine=1
-Caret=24,9
+Caret=24,8
 [code\P!.f]
 TopLine=1
 Caret=1,9
@@ -187,7 +187,7 @@ TopLine=1
 Caret=1,7
 [code\UM+.f]
 TopLine=1
-Caret=1,10
+Caret=1,9
 [code\XOR.f]
 TopLine=1
 Caret=1,7

@@ -1,10 +1,19 @@
 \ Copyright (c) 2001 by Blueputer Technology Inc.
 \ All rights reserved 
 
-fload meta/Memory_Map.f
-fload meta/Metacompiling_Initialization.f
-fload meta/Vocanulary_Operations.f
-fload meta/Meta_Compiling.f
+\ fload meta/Memory_Map.f
+\s
+
+ fload meta/Metacompiling_Initialization.f
+\ Metacompiling initialization
+\ fload meta/Initialize.f
+\s
+ fload meta/Vocanulary_Operations.f
+\s
+
+ fload meta/Meta_Compiling.f
+\fload meta/Memory_Map.f
+\ s
 fload meta/Header/ELF.f
 fload meta/Table/ASCII_PATTERN_TABLE.f
 fload meta/Output/Output.f

@@ -97,8 +97,8 @@ FORTH VARIABLE T-IN META
 T: [   IN-META   STATE-T OFF   T;
 T: ;   [TARGET] EXIT [TRANSITION] [   T;
 
-IN-ASSEMBLER
-: $NEXT ( -- )
+\ IN-ASSEMBLER
+\ : $NEXT ( -- )
  \ -------- ITC Version1 ---------
  \ WP, IP,            ,MOV                \ get next CFA
  \ IP, IP, 4 #        ,ADD                \ point to new CFA
@@ -106,9 +106,9 @@ IN-ASSEMBLER
  \ -------- ITC Version2 ---------
 
 \  [] PC, IP, 4 #      ,LDR                \ direct jump
-   [IP+4]->PC
+\   [IP+4]->PC
  
-  ;  
+\  ;  
 IN-META
 
 ( Interpretive words for Meta )

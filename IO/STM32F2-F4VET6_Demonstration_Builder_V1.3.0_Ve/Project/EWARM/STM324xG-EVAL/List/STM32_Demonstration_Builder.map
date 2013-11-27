@@ -1,0 +1,1529 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.50.6.4896/W32 for ARM               25/Nov/2013  09:29:16 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Exe\STM3 #
+#                    2_Demonstration_Builder.out                              #
+#    Map file     =  E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\List\STM #
+#                    32_Demonstration_Builder.map                             #
+#    Command line =  E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\!.o  #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\0_LT #
+#                    .o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstra #
+#                    tion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\@ #
+#                    .o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstra #
+#                    tion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\A #
+#                    ND.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \C!.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\C@.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\DROP.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_De #
+#                    monstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVA #
+#                    L\Obj\DUP.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\EXECUTE.o E:\Project\ezforth_STM32F407\STM32F2-F #
+#                    4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM3 #
+#                    24xG-EVAL\Obj\EXIT.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\GT_R.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\JoyHal.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\LcdH #
+#                    al.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \OR.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\OVER.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Dem #
+#                    onstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL #
+#                    \Obj\P!.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_De #
+#                    monstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVA #
+#                    L\Obj\P@.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\R@.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\RP!.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\RP@.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\R_GT.o E:\Project\ezforth_STM32F407\STM32F2- #
+#                    F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM #
+#                    324xG-EVAL\Obj\SP!.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\SP@.o E:\Project\ezforth_STM32F407\STM3 #
+#                    2F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM #
+#                    \STM324xG-EVAL\Obj\SWAP.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\TscHal.o                           #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\XOR. #
+#                    o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstrat #
+#                    ion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\ap #
+#                    i_lib.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demo #
+#                    nstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\ #
+#                    Obj\api_msg.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\app_audio.o E:\Project\ezforth_STM32F407\STM32 #
+#                    F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ #
+#                    STM324xG-EVAL\Obj\app_camera.o                           #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\app_ #
+#                    console.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_De #
+#                    monstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVA #
+#                    L\Obj\app_ethernet.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\app_image.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\app_ #
+#                    recorder.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\app_rtc.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\app_usbd.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\autoip.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\bran #
+#                    ch.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \bsp.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\camera_api.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\ccsbcs.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\croutine.o                              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\curs #
+#                    or.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \dcmi_ov2640.o E:\Project\ezforth_STM32F407\STM32F2-F4VE #
+#                    T6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324x #
+#                    G-EVAL\Obj\dcmi_ov9655.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\dhcp.o                              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\dns. #
+#                    o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstrat #
+#                    ion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\do #
+#                    LIST.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\doLIT.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\err.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\eth_bsp.o E:\Project\ezforth_STM32F407\STM32F2- #
+#                    F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM #
+#                    324xG-EVAL\Obj\etharp.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\ethernetif.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\fatf #
+#                    s_drv.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demo #
+#                    nstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\ #
+#                    Obj\ff.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Dem #
+#                    onstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL #
+#                    \Obj\file_utils.o E:\Project\ezforth_STM32F407\STM32F2-F #
+#                    4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM3 #
+#                    24xG-EVAL\Obj\fs.o E:\Project\ezforth_STM32F407\STM32F2- #
+#                    F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM #
+#                    324xG-EVAL\Obj\gl_ext.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\gl_fonts.o                           #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\gl_m #
+#                    gr.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \graphicObject.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\heap_2.o E:\Project\ezforth_STM32F407\STM32 #
+#                    F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ #
+#                    STM324xG-EVAL\Obj\icmp.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\igmp.o                              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\imag #
+#                    e_bmp.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demo #
+#                    nstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\ #
+#                    Obj\image_jpeg.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\images.o E:\Project\ezforth_STM32F407\STM32 #
+#                    F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ #
+#                    STM324xG-EVAL\Obj\inet.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\inet_chksum.o                       #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\init #
+#                    .o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstra #
+#                    tion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\i #
+#                    p.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstr #
+#                    ation_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\ #
+#                    ip_addr.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_De #
+#                    monstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVA #
+#                    L\Obj\ip_frag.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\ipcam_api.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\jaricom.o                            #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jcap #
+#                    imin.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jcapistd.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\jcarith.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jccoefct.o E:\Project\ezforth_STM32F407\ #
+#                    STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\E #
+#                    WARM\STM324xG-EVAL\Obj\jccolor.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jcdc #
+#                    tmgr.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jchuff.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\jcinit.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\jcmainct.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\jcmarker.o                           #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jcma #
+#                    ster.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jcomapi.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\jcparam.o E:\Project\ezforth_STM32F407\STM32F2- #
+#                    F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM #
+#                    324xG-EVAL\Obj\jcprepct.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\jcsample.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jctr #
+#                    ans.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\jdapimin.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\jdapistd.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jdarith.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\jdatadst.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jdat #
+#                    asrc.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jdcoefct.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\jdcolor.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jddctmgr.o E:\Project\ezforth_STM32F407\ #
+#                    STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\E #
+#                    WARM\STM324xG-EVAL\Obj\jdhuff.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jdin #
+#                    put.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\jdmainct.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\jdmarker.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jdmaster.o E:\Project\ezforth_STM32F407\ #
+#                    STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\E #
+#                    WARM\STM324xG-EVAL\Obj\jdmerge.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jdpo #
+#                    stct.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jdsample.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\jdtrans.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jerror.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\jfdctflt.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jfdc #
+#                    tfst.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jfdctint.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\jidctflt.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\jidctfst.o                              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\jidc #
+#                    tint.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\jmemmgr.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\jmemnobs.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\jquant1.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\jquant2.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\juti #
+#                    ls.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Utilities\STM32_Audio\Addons\Sp #
+#                    iritDSP_Equalizer\lib_equalizer_cortex_m4.a              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Utilities\STM32_Audio\Addons\SpiritD #
+#                    SP_LoudnessControl\lib_loudness_cortex_m4.a              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\libj #
+#                    peg_utils.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\list.o E:\Project\ezforth_STM32F407\STM32F2-F4VE #
+#                    T6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324x #
+#                    G-EVAL\Obj\main.o E:\Project\ezforth_STM32F407\STM32F2-F #
+#                    4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM3 #
+#                    24xG-EVAL\Obj\mem.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\mem_utils.o                              #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\memp #
+#                    .o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstra #
+#                    tion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\m #
+#                    essages.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_De #
+#                    monstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVA #
+#                    L\Obj\mod_audio.o E:\Project\ezforth_STM32F407\STM32F2-F #
+#                    4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM3 #
+#                    24xG-EVAL\Obj\mod_calendar.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\mod_ #
+#                    camera.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Dem #
+#                    onstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL #
+#                    \Obj\mod_console.o E:\Project\ezforth_STM32F407\STM32F2- #
+#                    F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM #
+#                    324xG-EVAL\Obj\mod_core.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\mod_credits.o                      #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\mod_ #
+#                    ethernet.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\mod_filemgr.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\mod_image.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\mod_ #
+#                    recorder.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\mod_serial.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\mod_system.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\mod_ #
+#                    usbd.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\netbuf.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\netdb.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\netif.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\netifapi.o E:\Project\ezforth_STM32F407\ #
+#                    STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\E #
+#                    WARM\STM324xG-EVAL\Obj\pbuf.o                            #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\port #
+#                    _cm4.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\portasm_cm4.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\question_branch.o                           #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\queu #
+#                    e.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstr #
+#                    ation_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\ #
+#                    raw.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\sockets.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\songutilities.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\startup_stm32f40xx.o                 #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stat #
+#                    s.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstr #
+#                    ation_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\ #
+#                    stm324xg_audio_codec.o E:\Project\ezforth_STM32F407\STM3 #
+#                    2F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM #
+#                    \STM324xG-EVAL\Obj\stm324xg_audio_recorder.o             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    24xg_eval.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\stm324xg_eval_fsmc_sram.o                        #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    24xg_eval_ioe.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\stm324xg_eval_lcd.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    24xg_eval_sdio_sd.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\stm32_audio_decoders.o                   #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2_audio_in_if.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\stm32_audio_out_if.o                         #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4x7_eth.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\stm32f4xx_adc.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\stm32f4xx_dcmi.o                     #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_dma.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\stm32f4xx_exti.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\stm32f4xx_flash.o                   #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_fsmc.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\stm32f4xx_gpio.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\stm32f4xx_i2c.o                    #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_misc.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\stm32f4xx_pwr.o E:\Project\ezforth_STM32F407\ST #
+#                    M32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWA #
+#                    RM\STM324xG-EVAL\Obj\stm32f4xx_rcc.o                     #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_rng.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\stm32f4xx_rtc.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\stm32f4xx_sdio.o                     #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_spi.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\stm32f4xx_syscfg.o E:\Project\ezforth_STM32F407\ #
+#                    STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\E #
+#                    WARM\STM324xG-EVAL\Obj\stm32f4xx_tim.o                   #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\stm3 #
+#                    2f4xx_usart.o E:\Project\ezforth_STM32F407\STM32F2-F4VET #
+#                    6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG #
+#                    -EVAL\Obj\stm32xxx_it.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\str_utils.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\sys. #
+#                    o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstrat #
+#                    ion_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\sy #
+#                    s_arch.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Dem #
+#                    onstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL #
+#                    \Obj\syscall.o E:\Project\ezforth_STM32F407\STM32F2-F4VE #
+#                    T6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324x #
+#                    G-EVAL\Obj\system_stm32f4xx.o                            #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\task #
+#                    s.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstr #
+#                    ation_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\ #
+#                    tcp.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\tcp_in.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_D #
+#                    emonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EV #
+#                    AL\Obj\tcp_out.o E:\Project\ezforth_STM32F407\STM32F2-F4 #
+#                    VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM32 #
+#                    4xG-EVAL\Obj\tcpip.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\time_utils.o                            #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\time #
+#                    rs.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonst #
+#                    ration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj #
+#                    \udp.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\usb_bsp.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6 #
+#                    _Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG- #
+#                    EVAL\Obj\usb_core.o E:\Project\ezforth_STM32F407\STM32F2 #
+#                    -F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ST #
+#                    M324xG-EVAL\Obj\usb_dcd.o E:\Project\ezforth_STM32F407\S #
+#                    TM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EW #
+#                    ARM\STM324xG-EVAL\Obj\usb_dcd_int.o                      #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usb_ #
+#                    hcd.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demons #
+#                    tration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Ob #
+#                    j\usb_hcd_int.o E:\Project\ezforth_STM32F407\STM32F2-F4V #
+#                    ET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324 #
+#                    xG-EVAL\Obj\usbd_core.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\usbd_desc.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbd #
+#                    _hid_core.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\usbd_ioreq.o E:\Project\ezforth_STM32F407\STM32F #
+#                    2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\S #
+#                    TM324xG-EVAL\Obj\usbd_msc_bot.o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbd #
+#                    _msc_core.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\usbd_msc_data.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\usbd_msc_scsi.o                      #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbd #
+#                    _req.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\usbd_storage_msd.o E:\Project\ezforth_STM32F407\STM32 #
+#                    F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\ #
+#                    STM324xG-EVAL\Obj\usbd_usr.o                             #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbh #
+#                    _core.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demo #
+#                    nstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\ #
+#                    Obj\usbh_hcs.o E:\Project\ezforth_STM32F407\STM32F2-F4VE #
+#                    T6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324x #
+#                    G-EVAL\Obj\usbh_ioreq.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\usbh_msc_bot.o                       #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbh #
+#                    _msc_core.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_ #
+#                    Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-E #
+#                    VAL\Obj\usbh_msc_scsi.o E:\Project\ezforth_STM32F407\STM #
+#                    32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWAR #
+#                    M\STM324xG-EVAL\Obj\usbh_stdreq.o                        #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj\usbh #
+#                    _usr.o E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demon #
+#                    stration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\O #
+#                    bj\wavprocess.o --redirect _Printf=_PrintfFull           #
+#                    --redirect _Scanf=_ScanfFull -o                          #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Exe\STM3 #
+#                    2_Demonstration_Builder.out --map                        #
+#                    E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstratio #
+#                    n_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\List\STM #
+#                    32_Demonstration_Builder.map --config "C:\Program        #
+#                    Files\IAR Systems\Embedded Workbench                     #
+#                    6.5\arm\config\linker\ST\stm32f407xE.icf" --semihosting  #
+#                    --entry __iar_program_start --vfe                        #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address     Size  Object
+  -------            ----        -------     ----  ------
+"A1":                                       0x188
+  .intvec            ro code  0x08000000    0x188  startup_stm32f40xx.o [1]
+                            - 0x08000188    0x188
+
+"P1":                                     0x11684
+  .text              ro code  0x08000188   0x2d60  graphicObject.o [1]
+  .text              ro code  0x08002ee8    0x948  LcdHal.o [1]
+  .text              ro code  0x08003830     0x36  strlen.o [7]
+  .text              ro code  0x08003866     0x2e  copy_init3.o [7]
+  .text              ro code  0x08003894     0x6c  strncpy.o [7]
+  .text              ro code  0x08003900   0x1408  dlmalloc.o [3]
+  .text              ro code  0x08004d08     0x14  udp.o [1]
+  .text              ro code  0x08004d1c     0x76  ABImemcpy.o [7]
+  .text              ro code  0x08004d92     0x22  zero_init3.o [7]
+  .text              ro code  0x08004db4     0x30  I32ToDbl.o [6]
+  .text              ro code  0x08004de4     0xe8  DblAdd.o [6]
+  .text              ro code  0x08004ecc     0x58  DblToI32.o [6]
+  .text              ro code  0x08004f24    0x180  DblSub.o [6]
+  .text              ro code  0x080050a4     0x2e  DblCmpLe.o [6]
+  .text              ro code  0x080050d2      0xa  xsprout.o [3]
+  .text              ro code  0x080050dc    0x246  DblDiv.o [6]
+  .text              ro code  0x08005324    0x1a2  DblMul.o [6]
+  .text              ro code  0x080054c8     0x34  sprintf.o [3]
+  .text              ro code  0x080054fc    0x17c  stm324xg_eval_lcd.o [1]
+  .text              ro code  0x08005678     0x66  ABImemset.o [7]
+  .text              ro code  0x080056de      0x6  abort.o [3]
+  .text              ro code  0x080056e4     0x2c  xgetmemchunk.o [3]
+  .text              ro code  0x08005710    0xcf6  xprintffull.o [3]
+  .text              ro code  0x08006408     0x14  exit.o [8]
+  .text              ro code  0x0800641c     0x16  strchr.o [7]
+  .text              ro code  0x08006434     0x58  memchr.o [7]
+  .text              ro code  0x0800648c     0xee  I64DivMod.o [7]
+  .text              ro code  0x0800657a     0x42  xdnorm.o [6]
+  .text              ro code  0x080065bc     0x2e  DblCmpGe.o [6]
+  .text              ro code  0x080065ec    0x114  xdscale.o [6]
+  .text              ro code  0x08006700      0xe  div.o [3]
+  .text              ro code  0x08006710      0x2  I64DivZer.o [7]
+  .rodata            const    0x08006714   0x1500  gl_fonts.o [1]
+  .rodata            const    0x08007c14   0x13c0  mod_ethernet.o [1]
+  .rodata            const    0x08008fd4   0x13c0  mod_ethernet.o [1]
+  .rodata            const    0x0800a394   0x11d0  gl_fonts.o [1]
+  .text              ro code  0x0800b564    0xc54  usb_hcd_int.o [1]
+  .text              ro code  0x0800c1b8    0x694  usb_core.o [1]
+  .text              ro code  0x0800c84c     0xf4  usb_bsp.o [1]
+  .text              ro code  0x0800c940    0x112  stm32f4xx_tim.o [1]
+  .text              ro code  0x0800ca54    0x764  usb_dcd_int.o [1]
+  .text              ro code  0x0800d1b8    0x650  usbd_req.o [1]
+  .text              ro code  0x0800d808     0x9c  usbd_ioreq.o [1]
+  .text              ro code  0x0800d8a4    0x17e  usb_dcd.o [1]
+  .text              ro code  0x0800da24    0x2c6  usbd_core.o [1]
+  .rodata            const    0x0800dcec    0x40c  images.o [1]
+  .rodata            const    0x0800e0f8    0x40c  images.o [1]
+  .rodata            const    0x0800e504    0x40c  images.o [1]
+  .rodata            const    0x0800e910    0x40c  images.o [1]
+  .text              ro code  0x0800ed1c    0x258  tasks.o [1]
+  .text              ro code  0x0800ef74     0x40  list.o [1]
+  .rodata            const    0x0800efb4    0x1e4  images.o [1]
+  .rodata            const    0x0800f198    0x1e4  images.o [1]
+  .rodata            const    0x0800f37c    0x1e4  images.o [1]
+  .rodata            const    0x0800f560    0x1e4  images.o [1]
+  .rodata            const    0x0800f744    0x1e4  images.o [1]
+  .rodata            const    0x0800f928    0x1e4  images.o [1]
+  .rodata            const    0x0800fb0c    0x1e4  images.o [1]
+  .rodata            const    0x0800fcf0    0x1e4  images.o [1]
+  .rodata            const    0x0800fed4    0x1e4  images.o [1]
+  .rodata            const    0x080100b8    0x1e4  images.o [1]
+  .rodata            const    0x0801029c    0x1e4  images.o [1]
+  .rodata            const    0x08010480    0x1e4  images.o [1]
+  .text              ro code  0x08010664    0x154  mod_ethernet.o [1]
+  .text              ro code  0x080107b8     0x1e  gl_ext.o [1]
+  .text              ro code  0x080107d8    0x154  system_stm32f4xx.o [1]
+  .text              ro code  0x0801092c    0x11c  stm324xg_audio_recorder.o [1]
+  .text              ro code  0x08010a48     0x24  stm32f4xx_adc.o [1]
+  .text              ro code  0x08010a6c      0x4  app_audio.o [1]
+  .text              ro code  0x08010a70     0x20  stm32_audio_in_if.o [1]
+  .text              ro code  0x08010a90     0xf4  stm324xg_eval_sdio_sd.o [1]
+  .text              ro code  0x08010b84     0x48  stm32f4xx_sdio.o [1]
+  .text              ro code  0x08010bcc     0xd8  stm32f4xx_dma.o [1]
+  .rodata            const    0x08010ca4     0xd4  images.o [1]
+  .rodata            const    0x08010d78     0xd4  images.o [1]
+  .text              ro code  0x08010e4c     0xc6  queue.o [1]
+  CODE               ro code  0x08010f14     0xa0  portasm_cm4.o [1]
+  .text              ro code  0x08010fb4      0xe  tcp_out.o [1]
+  .text              ro code  0x08010fc4     0xbe  eth_bsp.o [1]
+  .text              ro code  0x08011084     0x90  stm32f4x7_eth.o [1]
+  .text              ro code  0x08011114     0x28  port_cm4.o [1]
+  .text              ro code  0x0801113c     0x34  stm32f4xx_exti.o [1]
+  .text              ro code  0x08011170     0xa4  camera_api.o [1]
+  .text              ro code  0x08011214      0xc  stm32f4xx_dcmi.o [1]
+  .text              ro code  0x08011220     0x94  stm32xxx_it.o [1]
+  .text              ro code  0x080112b4     0x1c  mod_system.o [1]
+  .text              ro code  0x080112d0     0x88  app_ethernet.o [1]
+  .ForthRom          ro code  0x08011358     0x78  AND.o [1]
+  .text              ro code  0x080113d0     0x6c  stm32f4xx_rtc.o [1]
+  .text              ro code  0x0801143c     0x40  stm32_audio_out_if.o [1]
+  .text              ro code  0x0801147c     0x2c  app_rtc.o [1]
+  .text              ro code  0x080114a8     0x28  data_init.o [7]
+  .iar.init_table    const    0x080114d0     0x24  - Linker created -
+  .rodata            const    0x080114f4     0x20  mod_ethernet.o [1]
+  .rodata            const    0x08011514     0x20  mod_ethernet.o [1]
+  .rodata            const    0x08011534     0x20  mod_ethernet.o [1]
+  .text              ro code  0x08011554     0x1a  fpinit_M.o [6]
+  .text              ro code  0x08011570     0x18  usbh_core.o [1]
+  .text              ro code  0x08011588     0x16  cmain.o [7]
+  .text              ro code  0x0801159e      0x4  low_level_init.o [3]
+  .text              ro code  0x080115a2      0xa  main.o [1]
+  .text              ro code  0x080115ac      0x4  exit.o [3]
+  .text              ro code  0x080115b0      0xa  cexit.o [7]
+  .rodata            const    0x080115bc     0x14  mod_ethernet.o [1]
+  .text              ro code  0x080115d0     0x10  startup_stm32f40xx.o [1]
+  .text              ro code  0x080115e0      0xc  cstartup_M.o [7]
+  .rodata            const    0x080115ec      0x8  graphicObject.o [1]
+  .text              ro code  0x080115f4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080115f8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080115fc      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011600      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011604      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011608      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801160c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011610      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011614      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011618      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801161c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011620      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011624      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011628      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801162c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011630      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011634      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011638      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801163c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011640      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011644      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011648      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801164c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011650      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011654      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011658      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801165c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011660      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011664      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011668      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801166c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011670      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011674      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011678      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801167c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011680      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011684      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011688      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801168c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011690      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011694      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011698      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801169c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116a0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116a4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116a8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116ac      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116b0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116b4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116b8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116bc      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116c0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116c4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116c8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116cc      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116d0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116d4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116d8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116dc      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116e0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116e4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116e8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116ec      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116f0      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116f4      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116f8      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x080116fc      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011700      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011704      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011708      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801170c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011710      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011714      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011718      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801171c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011720      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011724      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011728      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801172c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011730      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011734      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011738      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801173c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011740      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011744      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011748      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801174c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011750      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011754      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011758      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x0801175c      0x4  startup_stm32f40xx.o [1]
+  .text              ro code  0x08011760      0x2  mod_core.o [1]
+  .rodata            const    0x08011762      0x0  zero_init3.o [7]
+  .rodata            const    0x08011762      0x0  copy_init3.o [7]
+  Initializer bytes  ro data  0x08011764     0xa8  <for P2 s0>
+                            - 0x0801180c  0x11684
+
+"P2", part 1 of 3:                           0xa8
+  P2 s0                       0x20000000     0xa8  <Init block>
+    .data            inited   0x20000000     0x2c  usbd_core.o [1]
+    .data            inited   0x2000002c     0x28  graphicObject.o [1]
+    .data            inited   0x20000054      0xc  usbd_desc.o [1]
+    .data            inited   0x20000060      0xc  usbh_core.o [1]
+    .data            inited   0x2000006c      0x8  gl_fonts.o [1]
+    .data            inited   0x20000074      0x8  gl_fonts.o [1]
+    .data            inited   0x2000007c      0x4  LcdHal.o [1]
+    .data            inited   0x20000080      0x4  stm324xg_audio_recorder.o [1]
+    .data            inited   0x20000084      0x4  stm324xg_audio_recorder.o [1]
+    .data            inited   0x20000088      0x4  stm324xg_audio_recorder.o [1]
+    .data            inited   0x2000008c      0x4  stm324xg_audio_recorder.o [1]
+    .data            inited   0x20000090      0x4  tasks.o [1]
+    .data            inited   0x20000094      0x4  usbd_core.o [1]
+    .data            inited   0x20000098      0x4  usbh_core.o [1]
+    .data            inited   0x2000009c      0x2  LcdHal.o [1]
+    .data            inited   0x2000009e      0x2  LcdHal.o [1]
+    .data            inited   0x200000a0      0x2  stm324xg_eval_lcd.o [1]
+    .data            inited   0x200000a2      0x1  LcdHal.o [1]
+    .data            inited   0x200000a3      0x1  LcdHal.o [1]
+    .data            inited   0x200000a4      0x1  LcdHal.o [1]
+                            - 0x200000a8     0xa8
+
+"P2", part 2 of 3:                         0x18d0
+  .bss               zero     0x200000a8    0xa90  app_usbd.o [1]
+  .bss               zero     0x20000b38    0xa90  mod_core.o [1]
+  .bss               zero     0x200015c8    0x1d4  dlmalloc.o [3]
+  .bss               zero     0x2000179c     0xf0  tasks.o [1]
+  .bss               zero     0x2000188c     0x18  app_ethernet.o [1]
+  .bss               zero     0x200018a4     0x18  mod_ethernet.o [1]
+  .bss               zero     0x200018bc     0x18  dlmalloc.o [3]
+  .bss               zero     0x200018d4     0x14  mod_ethernet.o [1]
+  .bss               zero     0x200018e8     0x14  tasks.o [1]
+  .bss               zero     0x200018fc      0x4  mod_camera.o [1]
+  .bss               zero     0x20001900      0x4  mod_ethernet.o [1]
+  .bss               zero     0x20001904      0x4  mod_ethernet.o [1]
+  .bss               zero     0x20001908      0x4  mod_ethernet.o [1]
+  .bss               zero     0x2000190c      0x4  stm324xg_audio_recorder.o [1]
+  .bss               zero     0x20001910      0x4  stm324xg_audio_recorder.o [1]
+  .bss               zero     0x20001914      0x4  stm324xg_audio_recorder.o [1]
+  .bss               zero     0x20001918      0x4  stm324xg_audio_recorder.o [1]
+  .bss               zero     0x2000191c      0x4  stm324xg_eval_sdio_sd.o [1]
+  .bss               zero     0x20001920      0x4  stm324xg_eval_sdio_sd.o [1]
+  .bss               zero     0x20001924      0x4  stm32_audio_in_if.o [1]
+  .bss               zero     0x20001928      0x4  stm32_audio_out_if.o [1]
+  .bss               zero     0x2000192c      0x4  tasks.o [1]
+  .bss               zero     0x20001930      0x4  tasks.o [1]
+  .bss               zero     0x20001934      0x4  tasks.o [1]
+  .bss               zero     0x20001938      0x4  tasks.o [1]
+  .bss               zero     0x2000193c      0x4  tasks.o [1]
+  .bss               zero     0x20001940      0x4  tasks.o [1]
+  .bss               zero     0x20001944      0x4  tasks.o [1]
+  .bss               zero     0x20001948      0x4  tasks.o [1]
+  .bss               zero     0x2000194c      0x4  tasks.o [1]
+  .bss               zero     0x20001950      0x4  usb_bsp.o [1]
+  .bss               zero     0x20001954      0x4  usbd_core.o [1]
+  .bss               zero     0x20001958      0x4  usbd_req.o [1]
+  .bss               zero     0x2000195c      0x4  usbd_req.o [1]
+  .bss               zero     0x20001960      0x4  usbd_req.o [1]
+  .bss               zero     0x20001964      0x4  xgetmemchunk.o [3]
+  .bss               zero     0x20001968      0x2  LcdHal.o [1]
+  .bss               zero     0x2000196a      0x2  stm324xg_eval_lcd.o [1]
+  .bss               zero     0x2000196c      0x1  LcdHal.o [1]
+  .bss               zero     0x2000196d      0x1  app_rtc.o [1]
+  .bss               zero     0x2000196e      0x1  eth_bsp.o [1]
+  .bss               zero     0x2000196f      0x1  graphicObject.o [1]
+  .bss               zero     0x20001970      0x1  mod_ethernet.o [1]
+  .bss               zero     0x20001971      0x1  mod_ethernet.o [1]
+  .bss               zero     0x20001972      0x1  mod_system.o [1]
+  .bss               zero     0x20001973      0x1  stm324xg_eval_sdio_sd.o [1]
+  .bss               zero     0x20001974      0x1  stm32xxx_it.o [1]
+  .bss               zero     0x20001975      0x1  usbd_req.o [1]
+                            - 0x20001976   0x18ce
+
+"P2", part 3 of 3:                         0x4000
+  CSTACK                      0x20001978   0x2000  <Block>
+    CSTACK           uninit   0x20001978   0x2000  <Block tail>
+  HEAP                        0x20003978   0x2000  <Block>
+    HEAP             uninit   0x20003978   0x2000  <Block tail>
+                            - 0x20005978   0x4000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18ce:
+          0x200000a8  0x18ce
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xa8 (101% of destination):
+          0x08011764    0xa8
+    1 destination range, total size 0xa5:
+          0x20000000    0xa5
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj: [1]
+    AND.o                          120
+    LcdHal.o                     2 376       11       14
+    app_audio.o                      4
+    app_ethernet.o                 136                24
+    app_rtc.o                       44                 1
+    app_usbd.o                                     2 704
+    camera_api.o                   164
+    eth_bsp.o                      190                 1
+    gl_ext.o                        30
+    gl_fonts.o                            9 952       16
+    graphicObject.o             11 616       48       41
+    images.o                             10 376
+    list.o                          64
+    main.o                          10
+    mod_camera.o                                       4
+    mod_core.o                       2             2 704
+    mod_ethernet.o                 340   10 228       58
+    mod_system.o                    28                 1
+    port_cm4.o                      40
+    portasm_cm4.o                  160
+    queue.o                        198
+    startup_stm32f40xx.o           772
+    stm324xg_audio_recorder.o      284       16       32
+    stm324xg_eval_lcd.o            380        2        4
+    stm324xg_eval_sdio_sd.o        244                 9
+    stm32_audio_in_if.o             32                 4
+    stm32_audio_out_if.o            64                 4
+    stm32f4x7_eth.o                144
+    stm32f4xx_adc.o                 36
+    stm32f4xx_dcmi.o                12
+    stm32f4xx_dma.o                216
+    stm32f4xx_exti.o                52
+    stm32f4xx_rtc.o                108
+    stm32f4xx_sdio.o                72
+    stm32f4xx_tim.o                274
+    stm32xxx_it.o                  148                 1
+    system_stm32f4xx.o             340
+    tasks.o                        600        4      300
+    tcp_out.o                       14
+    udp.o                           20
+    usb_bsp.o                      244                 4
+    usb_core.o                   1 684
+    usb_dcd.o                      382
+    usb_dcd_int.o                1 892
+    usb_hcd_int.o                3 156
+    usbd_core.o                    710       48       52
+    usbd_desc.o                              12       12
+    usbd_ioreq.o                   156
+    usbd_req.o                   1 616                13
+    usbh_core.o                     24       16       16
+    ----------------------------------------------------
+    Total:                      29 198   30 713    6 019
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                          6
+    div.o                           14
+    dlmalloc.o                   5 128               492
+    exit.o                           4
+    low_level_init.o                 4
+    sprintf.o                       52
+    xgetmemchunk.o                  44                 4
+    xprintffull.o                3 318
+    xsprout.o                       10
+    ----------------------------------------------------
+    Total:                       8 580               496
+
+lib_equalizer_cortex_m4.a: [4]
+    ----------------------------------------------------
+    Total:
+
+lib_loudness_cortex_m4.a: [5]
+    ----------------------------------------------------
+    Total:
+
+m7M_tlv.a: [6]
+    DblAdd.o                       232
+    DblCmpGe.o                      46
+    DblCmpLe.o                      46
+    DblDiv.o                       582
+    DblMul.o                       418
+    DblSub.o                       384
+    DblToI32.o                      88
+    I32ToDbl.o                      48
+    fpinit_M.o                      26
+    xdnorm.o                        66
+    xdscale.o                      276
+    ----------------------------------------------------
+    Total:                       2 212
+
+rt7M_tl.a: [7]
+    ABImemcpy.o                    118
+    ABImemset.o                    102
+    I64DivMod.o                    238
+    I64DivZer.o                      2
+    cexit.o                         10
+    cmain.o                         22
+    copy_init3.o                    46
+    cstartup_M.o                    12
+    data_init.o                     40
+    memchr.o                        88
+    strchr.o                        22
+    strlen.o                        54
+    strncpy.o                      108
+    zero_init3.o                    34
+    ----------------------------------------------------
+    Total:                         896
+
+shb_l.a: [8]
+    exit.o                          20
+    ----------------------------------------------------
+    Total:                          20
+
+    Gaps                            26        6
+    Linker created                           41   16 384
+--------------------------------------------------------
+    Grand Total:                40 932   30 760   22 899
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x08011589          Code  Gb  cmain.o [7]
+ADC_ClearFlag           0x08010a65     0x8  Code  Gb  stm32f4xx_adc.o [1]
+ADC_GetConversionValue  0x08010a49     0x6  Code  Gb  stm32f4xx_adc.o [1]
+ADC_GetFlagStatus       0x08010a4f    0x16  Code  Gb  stm32f4xx_adc.o [1]
+ADC_IRQHandler          0x08011661          Code  Wk  startup_stm32f40xx.o [1]
+AddComboOption          0x08000579    0x58  Code  Gb  graphicObject.o [1]
+AddPageControlObj       0x0800063b   0x25e  Code  Gb  graphicObject.o [1]
+ArrowDownTouched        0x0800e910   0x40c  Data  Gb  images.o [1]
+ArrowDownUntouched      0x0800e504   0x40c  Data  Gb  images.o [1]
+ArrowUpTouched          0x0800e0f8   0x40c  Data  Gb  images.o [1]
+ArrowUpUntouched        0x0800dcec   0x40c  Data  Gb  images.o [1]
+AudioRecBitRes          0x20000080     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+AudioRecChnlNbr         0x20000084     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+AudioRecCounter         0x20001914     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+AudioRecCurrSize        0x20001910     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+AutoReload              0x20000088     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+BL_Enabled              0x20001972     0x1  Data  Gb  mod_system.o [1]
+BSP_Delay               0x0800c89b    0x22  Code  Lc  usb_bsp.o [1]
+BSP_SetTime             0x0800c8c5    0x7c  Code  Lc  usb_bsp.o [1]
+BSP_delay               0x20001950     0x4  Data  Gb  usb_bsp.o [1]
+BackColor               0x200000a0     0x2  Data  Gb  stm324xg_eval_lcd.o [1]
+BmpBuffer32BitRead      0x08003339    0x28  Code  Lc  LcdHal.o [1]
+BtnNormal               0x0800f37c   0x1e4  Data  Gb  images.o [1]
+BtnNormalLeft           0x0800efb4   0x1e4  Data  Gb  images.o [1]
+BtnNormalRight          0x0800f198   0x1e4  Data  Gb  images.o [1]
+BtnPressed              0x0800f928   0x1e4  Data  Gb  images.o [1]
+BtnPressedLeft          0x0800f560   0x1e4  Data  Gb  images.o [1]
+BtnPressedRight         0x0800f744   0x1e4  Data  Gb  images.o [1]
+BusFault_Handler        0x08011227     0x2  Code  Gb  stm32xxx_it.o [1]
+CAN1_RX0_IRQHandler     0x08011669          Code  Wk  startup_stm32f40xx.o [1]
+CAN1_RX1_IRQHandler     0x0801166d          Code  Wk  startup_stm32f40xx.o [1]
+CAN1_SCE_IRQHandler     0x08011671          Code  Wk  startup_stm32f40xx.o [1]
+CAN1_TX_IRQHandler      0x08011665          Code  Wk  startup_stm32f40xx.o [1]
+CAN2_RX0_IRQHandler     0x08011719          Code  Wk  startup_stm32f40xx.o [1]
+CAN2_RX1_IRQHandler     0x0801171d          Code  Wk  startup_stm32f40xx.o [1]
+CAN2_SCE_IRQHandler     0x08011721          Code  Wk  startup_stm32f40xx.o [1]
+CAN2_TX_IRQHandler      0x08011715          Code  Wk  startup_stm32f40xx.o [1]
+CRYP_IRQHandler         0x08011755          Code  Wk  startup_stm32f40xx.o [1]
+CSTACK$$Base            0x20001978           --   Gb  - Linker created -
+CSTACK$$Limit           0x20003978           --   Gb  - Linker created -
+Camera_IRQHandler       0x08011171    0x8a  Code  Gb  camera_api.o [1]
+Camera_xSemaphore       0x200018fc     0x4  Data  Gb  mod_camera.o [1]
+Create_ComboBoxGrp      0x080008eb    0x2c  Code  Lc  graphicObject.o [1]
+Create_ComboBoxOption   0x08000917    0x1a  Code  Lc  graphicObject.o [1]
+Create_Icon             0x08000931    0x14  Code  Lc  graphicObject.o [1]
+DCD_EP_ClrStall         0x0800d9c9    0x46  Code  Gb  usb_dcd.o [1]
+DCD_EP_Open             0x0800d8a5    0x5a  Code  Gb  usb_dcd.o [1]
+DCD_EP_PrepareRx        0x0800d8ff    0x46  Code  Gb  usb_dcd.o [1]
+DCD_EP_SetAddress       0x0800da0f    0x14  Code  Gb  usb_dcd.o [1]
+DCD_EP_Stall            0x0800d983    0x46  Code  Gb  usb_dcd.o [1]
+DCD_EP_Tx               0x0800d945    0x3e  Code  Gb  usb_dcd.o [1]
+DCD_HandleEnumDone_ISR  0x0800d10f    0x4a  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleInEP_ISR      0x0800cd5d    0xee  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleOutEP_ISR     0x0800ce4b    0xc4  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleResume_ISR    0x0800cc91    0x4a  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleRxStatusQueueLevel_ISR
+                        0x0800cf2b    0x98  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleSof_ISR       0x0800cf0f    0x1c  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleUSBSuspend_ISR
+                        0x0800ccdb    0x82  Code  Lc  usb_dcd_int.o [1]
+DCD_HandleUsbReset_ISR  0x0800d04b    0xc4  Code  Lc  usb_dcd_int.o [1]
+DCD_IsoINIncomplete_ISR
+                        0x0800d159    0x1c  Code  Lc  usb_dcd_int.o [1]
+DCD_IsoOUTIncomplete_ISR
+                        0x0800d175    0x1c  Code  Lc  usb_dcd_int.o [1]
+DCD_OTG_ISR             0x0800cc6d    0x24  Code  Lc  usb_dcd_int.o [1]
+DCD_ReadDevInEP         0x0800d199    0x20  Code  Lc  usb_dcd_int.o [1]
+DCD_SessionRequest_ISR  0x0800cc4f    0x1e  Code  Lc  usb_dcd_int.o [1]
+DCD_WriteEmptyTxFifo    0x0800cfc3    0x88  Code  Lc  usb_dcd_int.o [1]
+DCMI_ClearFlag          0x08011215     0x8  Code  Gb  stm32f4xx_dcmi.o [1]
+DCMI_IRQHandler         0x08011751          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream0_IRQHandler
+                        0x08011645          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream1_IRQHandler
+                        0x08011649          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream2_IRQHandler
+                        0x0801164d          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream3_IRQHandler
+                        0x08011651          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream4_IRQHandler
+                        0x0801143d    0x2c  Code  Gb  stm32_audio_out_if.o [1]
+DMA1_Stream5_IRQHandler
+                        0x08011659          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream6_IRQHandler
+                        0x0801165d          Code  Wk  startup_stm32f40xx.o [1]
+DMA1_Stream7_IRQHandler
+                        0x080116d5          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream0_IRQHandler
+                        0x080116f9          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream1_IRQHandler
+                        0x08011285    0x1e  Code  Gb  stm32xxx_it.o [1]
+DMA2_Stream2_IRQHandler
+                        0x08011701          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream3_IRQHandler
+                        0x0801127d     0x8  Code  Gb  stm32xxx_it.o [1]
+DMA2_Stream4_IRQHandler
+                        0x08011709          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream5_IRQHandler
+                        0x08011729          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream6_IRQHandler
+                        0x0801172d          Code  Wk  startup_stm32f40xx.o [1]
+DMA2_Stream7_IRQHandler
+                        0x08011731          Code  Wk  startup_stm32f40xx.o [1]
+DMAEndOfTransfer        0x20001920     0x4  Data  Gb  stm324xg_eval_sdio_sd.o [1]
+DMA_ClearFlag           0x08010bff    0x20  Code  Gb  stm32f4xx_dma.o [1]
+DMA_ClearITPendingBit   0x08010c71    0x20  Code  Gb  stm32f4xx_dma.o [1]
+DMA_GetFlagStatus       0x08010bcd    0x32  Code  Gb  stm32f4xx_dma.o [1]
+DMA_GetITStatus         0x08010c1f    0x52  Code  Gb  stm32f4xx_dma.o [1]
+DMA_Interrupt_arbiter   0x20001974     0x1  Data  Gb  stm32xxx_it.o [1]
+DebugMon_Handler        0x0801122b     0x2  Code  Gb  stm32xxx_it.o [1]
+DestroyPageControl      0x0800094d   0x520  Code  Gb  graphicObject.o [1]
+ETHERNET_CableConnectionStatus
+                        0x20001970     0x1  Data  Gb  mod_ethernet.o [1]
+ETHERNET_UpdateConnState
+                        0x08010665    0x7c  Code  Gb  mod_ethernet.o [1]
+ETHERNET_UpdateIcon     0x080106e9    0x4e  Code  Gb  mod_ethernet.o [1]
+ETH_DMAClearITPendingBit
+                        0x0801109d     0x8  Code  Gb  stm32f4x7_eth.o [1]
+ETH_GetDMAFlagStatus    0x08011085    0x18  Code  Gb  stm32f4x7_eth.o [1]
+ETH_IRQHandler          0x0801100d    0x46  Code  Gb  eth_bsp.o [1]
+ETH_ReadPHYRegister     0x080110a5    0x60  Code  Gb  stm32f4x7_eth.o [1]
+ETH_WKUP_IRQHandler     0x08011711          Code  Wk  startup_stm32f40xx.o [1]
+EXTI0_IRQHandler        0x08011631          Code  Wk  startup_stm32f40xx.o [1]
+EXTI15_10_IRQHandler    0x08011065    0x1e  Code  Gb  eth_bsp.o [1]
+EXTI1_IRQHandler        0x08011635          Code  Wk  startup_stm32f40xx.o [1]
+EXTI2_IRQHandler        0x08011639          Code  Wk  startup_stm32f40xx.o [1]
+EXTI3_IRQHandler        0x0801163d          Code  Wk  startup_stm32f40xx.o [1]
+EXTI4_IRQHandler        0x08011641          Code  Wk  startup_stm32f40xx.o [1]
+EXTI9_5_IRQHandler      0x08011675          Code  Wk  startup_stm32f40xx.o [1]
+EXTI_ClearITPendingBit  0x08011161     0x6  Code  Gb  stm32f4xx_exti.o [1]
+EXTI_GetITStatus        0x0801113d    0x24  Code  Gb  stm32f4xx_exti.o [1]
+EthLinkStatus           0x2000196e     0x1  Data  Gb  eth_bsp.o [1]
+EthLink_ITHandler       0x08010fc5    0x48  Code  Gb  eth_bsp.o [1]
+EthernetCurrentPage     0x20001900     0x4  Data  Lc  mod_ethernet.o [1]
+EthernetSettings        0x200018a4    0x18  Data  Gb  mod_ethernet.o [1]
+EthernetWarningPage     0x20001904     0x4  Data  Lc  mod_ethernet.o [1]
+Ethernet_IRQHandler     0x080112d1    0x6c  Code  Gb  app_ethernet.o [1]
+Ethernet_xSemaphore     0x20001908     0x4  Data  Gb  mod_ethernet.o [1]
+FLASH_IRQHandler        0x08011629          Code  Wk  startup_stm32f40xx.o [1]
+FPU_IRQHandler          0x0801175d          Code  Wk  startup_stm32f40xx.o [1]
+FSMC_IRQHandler         0x080116d9          Code  Wk  startup_stm32f40xx.o [1]
+Forth_AND               0x08011359          Code  Wk  AND.o [1]
+GL_ASCII16x24_Table     0x0800a394  0x11d0  Data  Gb  gl_fonts.o [1]
+GL_ASCII8x12_bold_Table
+                        0x08006714  0x1500  Data  Gb  gl_fonts.o [1]
+GL_Clear                0x08002f01     0xa  Code  Gb  LcdHal.o [1]
+GL_DisplayAdjStringLine
+                        0x08002f9f    0x8e  Code  Gb  LcdHal.o [1]
+GL_DrawBMP              0x080030e7    0x5c  Code  Gb  LcdHal.o [1]
+GL_DrawButtonBMP        0x080004b9    0x48  Code  Gb  graphicObject.o [1]
+GL_DrawFilledRectangle  0x080001f7    0xda  Code  Lc  graphicObject.o [1]
+GL_DrawLine             0x080030d7    0x10  Code  Gb  LcdHal.o [1]
+GL_DrawObliqueLine      0x080002d1   0x1e8  Code  Lc  graphicObject.o [1]
+GL_DrawRectangle        0x08000189    0x6e  Code  Lc  graphicObject.o [1]
+GL_Font                 0x200000a2     0x1  Data  Gb  LcdHal.o [1]
+GL_Font16x24            0x2000006c     0x8  Data  Gb  gl_fonts.o [1]
+GL_Font8x12_bold        0x20000074     0x8  Data  Gb  gl_fonts.o [1]
+GL_FontHeight           0x200000a4     0x1  Data  Gb  LcdHal.o [1]
+GL_FontWidth            0x200000a3     0x1  Data  Gb  LcdHal.o [1]
+GL_LCD_DisplayChar      0x0800302d    0x9a  Code  Gb  LcdHal.o [1]
+GL_LCD_DrawChar         0x080031d7   0x162  Code  Gb  LcdHal.o [1]
+GL_LCD_DrawCharTransparent
+                        0x08002f0b    0x94  Code  Gb  LcdHal.o [1]
+GL_LCD_ReadRAM          0x08003361     0x8  Code  Gb  LcdHal.o [1]
+GL_SetBackColor         0x08002ef5     0xc  Code  Gb  LcdHal.o [1]
+GL_SetDisplayWindow     0x080030c7    0x10  Code  Gb  LcdHal.o [1]
+GL_SetFont              0x08003143    0x38  Code  Gb  LcdHal.o [1]
+GL_SetStringFieldValue  0x08000501    0x3c  Code  Lc  graphicObject.o [1]
+GL_SetTextColor         0x08002ee9     0xc  Code  Gb  LcdHal.o [1]
+HASH_RNG_IRQHandler     0x08011759          Code  Wk  startup_stm32f40xx.o [1]
+HEAP$$Base              0x20003978           --   Gb  - Linker created -
+HEAP$$Limit             0x20005978           --   Gb  - Linker created -
+HardFault_Handler       0x08011223     0x2  Code  Gb  stm32xxx_it.o [1]
+I2C1_ER_IRQHandler      0x08011699          Code  Wk  startup_stm32f40xx.o [1]
+I2C1_EV_IRQHandler      0x08011695          Code  Wk  startup_stm32f40xx.o [1]
+I2C2_ER_IRQHandler      0x080116a1          Code  Wk  startup_stm32f40xx.o [1]
+I2C2_EV_IRQHandler      0x0801169d          Code  Wk  startup_stm32f40xx.o [1]
+I2C3_ER_IRQHandler      0x0801173d          Code  Wk  startup_stm32f40xx.o [1]
+I2C3_EV_IRQHandler      0x08011739          Code  Wk  startup_stm32f40xx.o [1]
+IPAddressAssigned       0x200018d4    0x14  Data  Gb  mod_ethernet.o [1]
+IPCAM_ImageBuffer       0x2000188c    0x18  Data  Gb  app_ethernet.o [1]
+InXferCpltCallback      0x20001924     0x4  Data  Gb  stm32_audio_in_if.o [1]
+LCDType                 0x2000007c     0x4  Data  Gb  LcdHal.o [1]
+LCD_Change_Direction    0x08003369    0x60  Code  Gb  LcdHal.o [1]
+LCD_Clear               0x0800551d    0x2a  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_Direction           0x2000196c     0x1  Data  Gb  LcdHal.o [1]
+LCD_DrawColorBMP        0x080036c1   0x14a  Code  Gb  LcdHal.o [1]
+LCD_DrawLine            0x080055cd    0x70  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_GetPixel            0x0800319b    0x3c  Code  Gb  LcdHal.o [1]
+LCD_Height              0x2000009c     0x2  Data  Gb  LcdHal.o [1]
+LCD_PrintChar           0x08003523    0x52  Code  Gb  LcdHal.o [1]
+LCD_PrintStringLine     0x08003575   0x140  Code  Gb  LcdHal.o [1]
+LCD_PutPixel            0x0800317b    0x20  Code  Gb  LcdHal.o [1]
+LCD_ReadRAM             0x0800565b    0x10  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetBackColor        0x0800550d    0x10  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetCursor           0x08005547    0x1a  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetDisplayWindow    0x08005561    0x6c  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_SetTextColor        0x080054fd    0x10  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_Width               0x2000009e     0x2  Data  Gb  LcdHal.o [1]
+LCD_WriteChar           0x080033c9   0x15a  Code  Gb  LcdHal.o [1]
+LCD_WriteRAM            0x08005655     0x6  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_WriteRAM_Prepare    0x0800564b     0xa  Code  Gb  stm324xg_eval_lcd.o [1]
+LCD_WriteReg            0x0800563d     0xe  Code  Gb  stm324xg_eval_lcd.o [1]
+LastInitMessageIndex    0x20001971     0x1  Data  Lc  mod_ethernet.o [1]
+MOD_NullFunc            0x08011761     0x2  Code  Gb  mod_core.o [1]
+MemManage_Handler       0x08011225     0x2  Code  Gb  stm32xxx_it.o [1]
+NMI_Handler             0x08011221     0x2  Code  Gb  stm32xxx_it.o [1]
+NewComboBoxGrp          0x0800053d    0x3c  Code  Gb  graphicObject.o [1]
+NewIcon                 0x080005d1    0x6a  Code  Gb  graphicObject.o [1]
+OTG_FS_IRQHandler       0x0801124d     0xa  Code  Gb  stm32xxx_it.o [1]
+OTG_FS_WKUP_IRQHandler  0x080116c1          Code  Wk  startup_stm32f40xx.o [1]
+OTG_HS_EP1_IN_IRQHandler
+                        0x08011261     0xa  Code  Gb  stm32xxx_it.o [1]
+OTG_HS_EP1_OUT_IRQHandler
+                        0x0801126b     0xa  Code  Gb  stm32xxx_it.o [1]
+OTG_HS_IRQHandler       0x08011257     0xa  Code  Gb  stm32xxx_it.o [1]
+OTG_HS_WKUP_IRQHandler  0x08011749          Code  Wk  startup_stm32f40xx.o [1]
+OrigAutoReload          0x2000008c     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+OutXferCpltCallback     0x20001928     0x4  Data  Gb  stm32_audio_out_if.o [1]
+PVD_IRQHandler          0x0801161d          Code  Wk  startup_stm32f40xx.o [1]
+PendSV_Handler          0x0801122f     0x2  Code  Gb  stm32xxx_it.o [1]
+RCC_IRQHandler          0x0801162d          Code  Wk  startup_stm32f40xx.o [1]
+RTC_Alarm_IRQHandler    0x0801147d    0x26  Code  Gb  app_rtc.o [1]
+RTC_ClearITPendingBit   0x0801140f    0x1e  Code  Gb  stm32f4xx_rtc.o [1]
+RTC_GetITStatus         0x080113d1    0x3e  Code  Gb  stm32f4xx_rtc.o [1]
+RTC_HandlerFlag         0x2000196d     0x1  Data  Gb  app_rtc.o [1]
+RTC_WKUP_IRQHandler     0x08011625          Code  Wk  startup_stm32f40xx.o [1]
+RefreshLabel            0x080107b9    0x1e  Code  Gb  gl_ext.o [1]
+RefreshPageControl      0x08002e61    0x78  Code  Gb  graphicObject.o [1]
+Region$$Table$$Base     0x080114d0           --   Gb  - Linker created -
+Region$$Table$$Limit    0x080114f4           --   Gb  - Linker created -
+Reset_Handler           0x080115d1          Code  Wk  startup_stm32f40xx.o [1]
+SDIO_ClearITPendingBit  0x08010bbb     0x6  Code  Gb  stm32f4xx_sdio.o [1]
+SDIO_GetITStatus        0x08010ba5    0x16  Code  Gb  stm32f4xx_sdio.o [1]
+SDIO_IRQHandler         0x08011275     0x8  Code  Gb  stm32xxx_it.o [1]
+SDIO_ITConfig           0x08010b85    0x20  Code  Gb  stm32f4xx_sdio.o [1]
+SD_ProcessDMAIRQ        0x08010b4d    0x22  Code  Gb  stm324xg_eval_sdio_sd.o [1]
+SD_ProcessIRQSrc        0x08010a91    0xbc  Code  Gb  stm324xg_eval_sdio_sd.o [1]
+SET_TEST_MODE           0x20001954     0x4  Data  Gb  usbd_core.o [1]
+SPI1_IRQHandler         0x080116a5          Code  Wk  startup_stm32f40xx.o [1]
+SPI2_IRQHandler         0x080116a9          Code  Wk  startup_stm32f40xx.o [1]
+SPI3_IRQHandler         0x080116e5          Code  Wk  startup_stm32f40xx.o [1]
+STM32_AudioRec_DataProcessSingle
+                        0x08010a6d     0x4  Code  Gb  app_audio.o [1]
+STM32_AudioRec_Update   0x08010a71    0x1a  Code  Gb  stm32_audio_in_if.o [1]
+SVC_Handler             0x0801122d     0x2  Code  Gb  stm32xxx_it.o [1]
+SYSTEM_JumpToBootloader
+                        0x080112b5    0x12  Code  Gb  mod_system.o [1]
+SetButtonVisible        0x08000fcd   0x1f2  Code  Lc  graphicObject.o [1]
+SetCheckboxVisible      0x080015a7    0xc8  Code  Lc  graphicObject.o [1]
+SetComboBoxVisible      0x08001459   0x14e  Code  Lc  graphicObject.o [1]
+SetGraphChartVisible    0x0800205d   0xc3e  Code  Lc  graphicObject.o [1]
+SetHistogramVisible     0x08001b59   0x4bc  Code  Lc  graphicObject.o [1]
+SetIconVisible          0x0800166f    0x34  Code  Lc  graphicObject.o [1]
+SetLabelVisible         0x08000e6d   0x138  Code  Lc  graphicObject.o [1]
+SetRadioButtonVisible   0x080013b1    0xa8  Code  Lc  graphicObject.o [1]
+SetSlidebarVisible      0x080016a3   0x49a  Code  Lc  graphicObject.o [1]
+SetSwitchVisible        0x080011c9   0x1dc  Code  Lc  graphicObject.o [1]
+SetSysClock             0x0801082b    0xce  Code  Lc  system_stm32f4xx.o [1]
+Set_Label               0x08000899    0x52  Code  Gb  graphicObject.o [1]
+SlidebarCursorPointer   0x2000002c    0x28  Data  Lc  graphicObject.o [1]
+SlidebarCursorPreDraw   0x08002ca5   0x174  Code  Lc  graphicObject.o [1]
+SlidebarLeft            0x08010ca4    0xd4  Data  Gb  images.o [1]
+SlidebarRight           0x08010d78    0xd4  Data  Gb  images.o [1]
+SwitchNormal            0x0800fed4   0x1e4  Data  Gb  images.o [1]
+SwitchNormalLeft        0x0800fb0c   0x1e4  Data  Gb  images.o [1]
+SwitchNormalRight       0x0800fcf0   0x1e4  Data  Gb  images.o [1]
+SwitchPressed           0x08010480   0x1e4  Data  Gb  images.o [1]
+SwitchPressedLeft       0x080100b8   0x1e4  Data  Gb  images.o [1]
+SwitchPressedRight      0x0801029c   0x1e4  Data  Gb  images.o [1]
+SysTick_Handler         0x08011231    0x14  Code  Gb  stm32xxx_it.o [1]
+SystemInit              0x080107d9    0x52  Code  Gb  system_stm32f4xx.o [1]
+TAMP_STAMP_IRQHandler   0x08011621          Code  Wk  startup_stm32f40xx.o [1]
+TIM1_BRK_TIM9_IRQHandler
+                        0x08011679          Code  Wk  startup_stm32f40xx.o [1]
+TIM1_CC_IRQHandler      0x08011685          Code  Wk  startup_stm32f40xx.o [1]
+TIM1_TRG_COM_TIM11_IRQHandler
+                        0x08011681          Code  Wk  startup_stm32f40xx.o [1]
+TIM1_UP_TIM10_IRQHandler
+                        0x0801167d          Code  Wk  startup_stm32f40xx.o [1]
+TIM2_IRQHandler         0x08011245     0x8  Code  Gb  stm32xxx_it.o [1]
+TIM3_IRQHandler         0x0801092d    0xf4  Code  Gb  stm324xg_audio_recorder.o [1]
+TIM4_IRQHandler         0x08011691          Code  Wk  startup_stm32f40xx.o [1]
+TIM5_IRQHandler         0x080116e1          Code  Wk  startup_stm32f40xx.o [1]
+TIM6_DAC_IRQHandler     0x080116f1          Code  Wk  startup_stm32f40xx.o [1]
+TIM7_IRQHandler         0x080116f5          Code  Wk  startup_stm32f40xx.o [1]
+TIM8_BRK_TIM12_IRQHandler
+                        0x080116c5          Code  Wk  startup_stm32f40xx.o [1]
+TIM8_CC_IRQHandler      0x080116d1          Code  Wk  startup_stm32f40xx.o [1]
+TIM8_TRG_COM_TIM14_IRQHandler
+                        0x080116cd          Code  Wk  startup_stm32f40xx.o [1]
+TIM8_UP_TIM13_IRQHandler
+                        0x080116c9          Code  Wk  startup_stm32f40xx.o [1]
+TIM_ARRPreloadConfig    0x0800c9af    0x1c  Code  Gb  stm32f4xx_tim.o [1]
+TIM_ClearITPendingBit   0x0800ca4b     0x8  Code  Gb  stm32f4xx_tim.o [1]
+TIM_Cmd                 0x0800c9cb    0x1c  Code  Gb  stm32f4xx_tim.o [1]
+TIM_GetITStatus         0x0800ca1d    0x2e  Code  Gb  stm32f4xx_tim.o [1]
+TIM_ITConfig            0x0800ca05    0x18  Code  Gb  stm32f4xx_tim.o [1]
+TIM_SetAutoreload       0x0800c9ab     0x4  Code  Gb  stm32f4xx_tim.o [1]
+TIM_TimeBaseInit        0x0800c941    0x6a  Code  Gb  stm32f4xx_tim.o [1]
+TextColor               0x2000196a     0x2  Data  Gb  stm324xg_eval_lcd.o [1]
+TransferEnd             0x2000191c     0x4  Data  Gb  stm324xg_eval_sdio_sd.o [1]
+TransferError           0x20001973     0x1  Data  Gb  stm324xg_eval_sdio_sd.o [1]
+UART4_IRQHandler        0x080116e9          Code  Wk  startup_stm32f40xx.o [1]
+UART5_IRQHandler        0x080116ed          Code  Wk  startup_stm32f40xx.o [1]
+USART1_IRQHandler       0x080116ad          Code  Wk  startup_stm32f40xx.o [1]
+USART2_IRQHandler       0x080116b1          Code  Wk  startup_stm32f40xx.o [1]
+USART3_IRQHandler       0x080116b5          Code  Wk  startup_stm32f40xx.o [1]
+USART6_IRQHandler       0x08011735          Code  Wk  startup_stm32f40xx.o [1]
+USBD_ClrCfg             0x0800dc87    0x10  Code  Gb  usbd_core.o [1]
+USBD_ClrFeature         0x0800d775    0x34  Code  Lc  usbd_req.o [1]
+USBD_CtlContinueRx      0x0800d847    0x16  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                        0x0800d831    0x16  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlError           0x0800d7ed    0x1c  Code  Gb  usbd_req.o [1]
+USBD_CtlReceiveStatus   0x0800d881    0x24  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData        0x0800d809    0x28  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus      0x0800d85d    0x24  Code  Gb  usbd_ioreq.o [1]
+USBD_DCD_INT_cb         0x20000000    0x2c  Data  Gb  usbd_core.o [1]
+USBD_DCD_INT_fops       0x20000094     0x4  Data  Gb  usbd_core.o [1]
+USBD_DataInStage        0x0800db0b    0xcc  Code  Lc  usbd_core.o [1]
+USBD_DataOutStage       0x0800da77    0x94  Code  Lc  usbd_core.o [1]
+USBD_DevConnected       0x0800dcb3    0x16  Code  Lc  usbd_core.o [1]
+USBD_DevDisconnected    0x0800dcc9    0x22  Code  Lc  usbd_core.o [1]
+USBD_DeviceQualifierDesc
+                        0x20000054     0xc  Data  Gb  usbd_desc.o [1]
+USBD_GetConfig          0x0800d665    0x38  Code  Lc  usbd_req.o [1]
+USBD_GetDescriptor      0x0800d3c7   0x186  Code  Lc  usbd_req.o [1]
+USBD_GetStatus          0x0800d69d    0x36  Code  Lc  usbd_req.o [1]
+USBD_IsoINIncomplete    0x0800dc97     0xe  Code  Lc  usbd_core.o [1]
+USBD_IsoOUTIncomplete   0x0800dca5     0xe  Code  Lc  usbd_core.o [1]
+USBD_OTG_EP1IN_ISR_Handler
+                        0x0800caaf    0xac  Code  Gb  usb_dcd_int.o [1]
+USBD_OTG_EP1OUT_ISR_Handler
+                        0x0800ca55    0x5a  Code  Gb  usb_dcd_int.o [1]
+USBD_OTG_ISR_Handler    0x0800cb5b    0xf4  Code  Gb  usb_dcd_int.o [1]
+USBD_ParseSetupRequest  0x0800d7a9    0x44  Code  Gb  usbd_req.o [1]
+USBD_Reset              0x0800dbe9    0x30  Code  Lc  usbd_core.o [1]
+USBD_Resume             0x0800dc19    0x1e  Code  Lc  usbd_core.o [1]
+USBD_RunTestMode        0x0800dbd7     0xc  Code  Lc  usbd_core.o [1]
+USBD_SOF                0x0800dc53    0x18  Code  Lc  usbd_core.o [1]
+USBD_SetAddress         0x0800d54d    0x58  Code  Lc  usbd_req.o [1]
+USBD_SetCfg             0x0800dc6b    0x1c  Code  Gb  usbd_core.o [1]
+USBD_SetConfig          0x0800d5a5    0xc0  Code  Lc  usbd_req.o [1]
+USBD_SetFeature         0x0800d6d3    0x88  Code  Lc  usbd_req.o [1]
+USBD_SetupStage         0x0800da25    0x52  Code  Lc  usbd_core.o [1]
+USBD_StdDevReq          0x0800d1b9    0x58  Code  Gb  usbd_req.o [1]
+USBD_StdEPReq           0x0800d25f   0x168  Code  Gb  usbd_req.o [1]
+USBD_StdItfReq          0x0800d211    0x4e  Code  Gb  usbd_req.o [1]
+USBD_Suspend            0x0800dc37    0x1c  Code  Lc  usbd_core.o [1]
+USBD_cfg_status         0x20001960     0x4  Data  Gb  usbd_req.o [1]
+USBD_default_cfg        0x2000195c     0x4  Data  Gb  usbd_req.o [1]
+USBD_ep_status          0x20001958     0x4  Data  Gb  usbd_req.o [1]
+USBH_Connected          0x08011571     0xa  Code  Gb  usbh_core.o [1]
+USBH_Disconnected       0x0801157b     0xa  Code  Gb  usbh_core.o [1]
+USBH_HCD_INT_cb         0x20000060     0xc  Data  Gb  usbh_core.o [1]
+USBH_HCD_INT_fops       0x20000098     0x4  Data  Gb  usbh_core.o [1]
+USBH_OTG_ISR_Handler    0x0800b565    0xa6  Code  Gb  usb_hcd_int.o [1]
+USBH_SOF                0x08011585     0x4  Code  Gb  usbh_core.o [1]
+USB_OTG_BSP_TimerIRQ    0x0800c861    0x3a  Code  Gb  usb_bsp.o [1]
+USB_OTG_BSP_mDelay      0x0800c857     0xa  Code  Gb  usb_bsp.o [1]
+USB_OTG_BSP_uDelay      0x0800c84d     0xa  Code  Gb  usb_bsp.o [1]
+USB_OTG_Core            0x20000b38   0xa90  Data  Gb  mod_core.o [1]
+USB_OTG_EP0Activate     0x0800c3f1    0x4a  Code  Gb  usb_core.o [1]
+USB_OTG_EP0StartXfer    0x0800c629   0x126  Code  Gb  usb_core.o [1]
+USB_OTG_EP0_OutStart    0x0800c7fd    0x50  Code  Gb  usb_core.o [1]
+USB_OTG_EPActivate      0x0800c43b    0x88  Code  Gb  usb_core.o [1]
+USB_OTG_EPClearStall    0x0800c78f    0x3e  Code  Gb  usb_core.o [1]
+USB_OTG_EPSetStall      0x0800c74f    0x40  Code  Gb  usb_core.o [1]
+USB_OTG_EPStartXfer     0x0800c4c3   0x166  Code  Gb  usb_core.o [1]
+USB_OTG_FlushTxFifo     0x0800c223    0x46  Code  Gb  usb_core.o [1]
+USB_OTG_GetDeviceSpeed  0x0800c3c5    0x2c  Code  Gb  usb_core.o [1]
+USB_OTG_GetMode         0x0800c26d     0xa  Code  Gb  usb_core.o [1]
+USB_OTG_HC_DoPing       0x0800c381    0x44  Code  Gb  usb_core.o [1]
+USB_OTG_HC_Halt         0x0800c30f    0x72  Code  Gb  usb_core.o [1]
+USB_OTG_HS_dev          0x200000a8   0xa90  Data  Gb  app_usbd.o [1]
+USB_OTG_InitFSLSPClkSel
+                        0x0800c2b1    0x10  Code  Gb  usb_core.o [1]
+USB_OTG_IsDeviceMode    0x0800c277    0x14  Code  Gb  usb_core.o [1]
+USB_OTG_IsHostMode      0x0800c28b    0x14  Code  Gb  usb_core.o [1]
+USB_OTG_ReadCoreItr     0x0800c29f    0x12  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevAllInEPItr
+                        0x0800c7ef     0xe  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevAllOutEp_itr
+                        0x0800c7cd     0xe  Code  Gb  usb_core.o [1]
+USB_OTG_ReadDevOutEP_itr
+                        0x0800c7db    0x14  Code  Gb  usb_core.o [1]
+USB_OTG_ReadHPRT0       0x0800c2c1    0x18  Code  Gb  usb_core.o [1]
+USB_OTG_ReadHostAllChannels_intr
+                        0x0800c2d9     0x6  Code  Gb  usb_core.o [1]
+USB_OTG_ReadPacket      0x0800c1f9    0x2a  Code  Gb  usb_core.o [1]
+USB_OTG_ResetPort       0x0800c2df    0x30  Code  Gb  usb_core.o [1]
+USB_OTG_USBH_handle_Disconnect_ISR
+                        0x0800b67d    0x1c  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_IncompletePeriodicXfer_ISR
+                        0x0800c191    0x28  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_hc_ISR
+                        0x0800b60b    0x56  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_hc_n_In_ISR
+                        0x0800bd09   0x378  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_hc_n_Out_ISR
+                        0x0800b9d1   0x338  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_nptxfempty_ISR
+                        0x0800b699   0x11a  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_port_ISR
+                        0x0800b8cf    0xfe  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_ptxfempty_ISR
+                        0x0800b7b3   0x11c  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_rx_qlvl_ISR
+                        0x0800c081   0x110  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_USBH_handle_sof_ISR
+                        0x0800b661    0x1c  Code  Lc  usb_hcd_int.o [1]
+USB_OTG_WritePacket     0x0800c1b9    0x40  Code  Gb  usb_core.o [1]
+UpdateConnectionStatus  0x08010739    0x58  Code  Lc  mod_ethernet.o [1]
+UsageFault_Handler      0x08011229     0x2  Code  Gb  stm32xxx_it.o [1]
+WWDG_IRQHandler         0x08011619          Code  Wk  startup_stm32f40xx.o [1]
+_GenldFull              0x0800615d   0x260  Code  Lc  xprintffull.o [3]
+_LdtobFull              0x08005d6d   0x3ea  Code  Lc  xprintffull.o [3]
+_LitobFull              0x08005c5b   0x10c  Code  Lc  xprintffull.o [3]
+_PrintfFull             0x08005711   0x544  Code  Gb  xprintffull.o [3]
+_PutcharsFull           0x080063bd    0x2e  Code  Lc  xprintffull.o [3]
+_SProut                 0x080050d3     0xa  Code  Gb  xsprout.o [3]
+__aeabi_cdcmple         0x080050a5          Code  Gb  DblCmpLe.o [6]
+__aeabi_cdrcmple        0x080065bd          Code  Gb  DblCmpGe.o [6]
+__aeabi_d2iz            0x08004ecd          Code  Gb  DblToI32.o [6]
+__aeabi_d2uiz           0x08004ef9          Code  Gb  DblToI32.o [6]
+__aeabi_dadd            0x08004de5          Code  Gb  DblAdd.o [6]
+__aeabi_ddiv            0x080050dd          Code  Gb  DblDiv.o [6]
+__aeabi_dmul            0x08005325          Code  Gb  DblMul.o [6]
+__aeabi_dsub            0x08004f25          Code  Gb  DblSub.o [6]
+__aeabi_i2d             0x08004db5          Code  Gb  I32ToDbl.o [6]
+__aeabi_ldiv0           0x08006711          Code  Gb  I64DivZer.o [7]
+__aeabi_memcpy          0x08004d1d          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4         0x08004d3d          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8         0x08004d3d          Code  Gb  ABImemcpy.o [7]
+__aeabi_memset          0x08005679          Code  Gb  ABImemset.o [7]
+__aeabi_ui2d            0x08004dc9          Code  Gb  I32ToDbl.o [6]
+__aeabi_uldivmod        0x0800648d          Code  Gb  I64DivMod.o [7]
+__cmain                 0x08011589          Code  Gb  cmain.o [7]
+__data_GetMemChunk      0x080056e5    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x08006409    0x14  Code  Gb  exit.o [8]
+__iar_Dnorm             0x0800657b    0x42  Code  Gb  xdnorm.o [6]
+__iar_Dscale            0x080065ed   0x114  Code  Gb  xdscale.o [6]
+__iar_Memchr            0x08006435          Code  Gb  memchr.o [7]
+__iar_Memset            0x08005679          Code  Gb  ABImemset.o [7]
+__iar_Memset_word       0x08005681          Code  Gb  ABImemset.o [7]
+__iar_Strchr            0x0800641d          Code  Gb  strchr.o [7]
+__iar_copy_init3        0x08003867    0x2e  Code  Gb  copy_init3.o [7]
+__iar_d2uiz             0x08004f05          Code  Gb  DblToI32.o [6]
+__iar_dadd              0x08004df9          Code  Gb  DblAdd.o [6]
+__iar_data_init3        0x080114a9    0x28  Code  Gb  data_init.o [7]
+__iar_dlfree            0x08004823   0x4de  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x08004587   0x29c  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x08004f39          Code  Gb  DblSub.o [6]
+__iar_dsubStart         0x08004f4b          Code  Gb  DblSub.o [6]
+__iar_init_vfp          0x08011555          Code  Gb  fpinit_M.o [6]
+__iar_program_start     0x080115e1          Code  Gb  cstartup_M.o [7]
+__iar_ui2d              0x08004dcd          Code  Gb  I32ToDbl.o [6]
+__iar_zero_init3        0x08004d93    0x22  Code  Gb  zero_init3.o [7]
+__low_level_init        0x0801159f     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f40xx.o [1]
+_call_main              0x08011595          Code  Gb  cmain.o [7]
+_exit                   0x080115b1          Code  Gb  cexit.o [7]
+_gm_                    0x200015c8   0x1d4  Data  Lc  dlmalloc.o [3]
+_main                   0x0801159b          Code  Gb  cmain.o [7]
+abort                   0x080056df     0x6  Code  Gb  abort.o [3]
+div                     0x08006701     0xe  Code  Gb  div.o [3]
+ethernet_conn_icon      0x08007c14  0x13c0  Data  Gb  mod_ethernet.o [1]
+ethernet_disconn_icon   0x08008fd4  0x13c0  Data  Gb  mod_ethernet.o [1]
+exit                    0x080115ad     0x4  Code  Gb  exit.o [3]
+init_mparams            0x0800391b    0x34  Code  Lc  dlmalloc.o [3]
+init_top                0x0800394f    0x34  Code  Lc  dlmalloc.o [3]
+main                    0x080115a3     0xa  Code  Gb  main.o [1]
+memchr                  0x08006435          Code  Gb  memchr.o [7]
+memcpy                  0x08010fb5     0xe  Code  Gb  tcp_out.o [1]
+memset                  0x08004d09    0x14  Code  Gb  udp.o [1]
+mparams                 0x200018bc    0x18  Data  Lc  dlmalloc.o [3]
+pAudioRecBuf            0x2000190c     0x4  Data  Gb  stm324xg_audio_recorder.o [1]
+prepend_alloc           0x08003983   0x320  Code  Lc  dlmalloc.o [3]
+prvCopyDataToQueue      0x08010ea9    0x6a  Code  Lc  queue.o [1]
+pxCurrentTCB            0x2000192c     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20001930     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x20001934     0x4  Data  Lc  tasks.o [1]
+pxReadyTasksLists       0x2000179c    0xf0  Data  Lc  tasks.o [1]
+segment_holding         0x08003901    0x1a  Code  Lc  dlmalloc.o [3]
+sprintf                 0x080054c9    0x34  Code  Gb  sprintf.o [3]
+strchr                  0x0800641d          Code  Gb  strchr.o [7]
+strlen                  0x08003831          Code  Gb  strlen.o [7]
+strncpy                 0x08003895          Code  Gb  strncpy.o [7]
+sys_alloc               0x08003ca3   0x34e  Code  Lc  dlmalloc.o [3]
+tmalloc_large           0x08003ffd   0x37e  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0800437b   0x1f8  Code  Lc  dlmalloc.o [3]
+uxMissedTicks           0x20001944     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20001940     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000193c     0x4  Data  Lc  tasks.o [1]
+vListInsertEnd          0x0800ef75    0x1c  Code  Gb  list.o [1]
+vListRemove             0x0800ef91    0x24  Code  Gb  list.o [1]
+vPortClearInterruptMask
+                        0x08010f69          Code  Gb  portasm_cm4.o [1]
+vPortEnableVFP          0x08010f99          Code  Gb  portasm_cm4.o [1]
+vPortSVCHandler         0x08010f73          Code  Gb  portasm_cm4.o [1]
+vPortSetInterruptMask   0x08010f5f          Code  Gb  portasm_cm4.o [1]
+vPortStartFirstTask     0x08010f8b          Code  Gb  portasm_cm4.o [1]
+vPortYieldFromISR       0x08011115     0xa  Code  Gb  port_cm4.o [1]
+vTaskIncrementTick      0x0800ed1d   0x106  Code  Gb  tasks.o [1]
+vTaskPriorityDisinherit
+                        0x0800ef01    0x44  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x0800ee23    0x6a  Code  Gb  tasks.o [1]
+xMissedYield            0x20001948     0x4  Data  Lc  tasks.o [1]
+xNextTaskUnblockTime    0x20000090     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000194c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x200018e8    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x08010f15          Code  Gb  portasm_cm4.o [1]
+xPortSysTickHandler     0x0801111f    0x1a  Code  Gb  port_cm4.o [1]
+xQueueGenericSendFromISR
+                        0x08010e4d    0x5c  Code  Gb  queue.o [1]
+xTaskRemoveFromEventList
+                        0x0800ee8d    0x68  Code  Gb  tasks.o [1]
+xTickCount              0x20001938     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = E:\Project\ezforth_STM32F407\STM32F2-F4VET6_Demonstration_Builder_V1.3.0_Ve\Project\EWARM\STM324xG-EVAL\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = lib_equalizer_cortex_m4.a
+[5] = lib_loudness_cortex_m4.a
+[6] = m7M_tlv.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  40 932 bytes of readonly  code memory
+  30 760 bytes of readonly  data memory
+  22 899 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

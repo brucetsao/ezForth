@@ -14,13 +14,149 @@ Extensions=*.*
 [Project tree]
 ezForth
 	+ezForth
-		-IO
-			IO\IO.f
-			IO\debug.f
+		+IO
+			+STM
+				+STM32F407
+					-TIM
+						IO\STM\STM32F407\Tim\TIM_DeInit.f
+						IO\STM\STM32F407\Tim\TIM_TimeBaseInit.f
+						IO\STM\STM32F407\Tim\TIM_TimeBaseStructInit.f
+						IO\STM\STM32F407\Tim\TIM_PrescalerConfig.f
+						IO\STM\STM32F407\Tim\TIM_CounterModeConfig.f
+						IO\STM\STM32F407\Tim\TIM_SetCounter.f
+						IO\STM\STM32F407\Tim\TIM_SetAutoreload.f
+						IO\STM\STM32F407\Tim\TIM_GetCounter.f
+						IO\STM\STM32F407\Tim\TIM_GetPrescaler.f
+						IO\STM\STM32F407\Tim\TIM_UpdateDisableConfig.f
+						IO\STM\STM32F407\Tim\TIM_UpdateRequestConfig.f
+						IO\STM\STM32F407\Tim\TIM_ARRPreloadConfig.f
+						IO\STM\STM32F407\Tim\TIM_SelectOnePulseMode.f
+						IO\STM\STM32F407\Tim\TIM_SetClockDivision.f
+						IO\STM\STM32F407\Tim\TIM_Cmd.f
+						IO\STM\STM32F407\Tim\TIM_OC1Init.f
+						IO\STM\STM32F407\Tim\TIM_OC2Init.f
+						IO\STM\STM32F407\Tim\TIM_OC3Init.f
+						IO\STM\STM32F407\Tim\TIM_OC4Init.f
+						IO\STM\STM32F407\Tim\TIM_OCStructInit.f
+						IO\STM\STM32F407\Tim\TIM_SelectOCxM.f
+						IO\STM\STM32F407\Tim\TIM_SetCompare1.f
+						IO\STM\STM32F407\Tim\TIM_SetCompare2.f
+						IO\STM\STM32F407\Tim\TIM_SetCompare3.f
+						IO\STM\STM32F407\Tim\TIM_SetCompare4.f
+						IO\STM\STM32F407\Tim\TIM_ForcedOC1Config.f
+						IO\STM\STM32F407\Tim\TIM_ForcedOC2Config.f
+						IO\STM\STM32F407\Tim\TIM_ForcedOC3Config.f
+						IO\STM\STM32F407\Tim\TIM_ForcedOC4Config.f
+						IO\STM\STM32F407\Tim\TIM_OC4PreloadConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC3PreloadConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC2PreloadConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC1PreloadConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC4FastConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC3FastConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC2FastConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC1FastConfig.f
+						IO\STM\STM32F407\Tim\TIM_ClearOC4Ref.f
+						IO\STM\STM32F407\Tim\TIM_ClearOC3Ref.f
+						IO\STM\STM32F407\Tim\TIM_ClearOC2Ref.f
+						IO\STM\STM32F407\Tim\TIM_ClearOC1Ref.f
+						IO\STM\STM32F407\Tim\TIM_OC4PolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC3PolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC2PolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC1PolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC4NPolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC3NPolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC2NPolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_OC1NPolarityConfig.f
+						IO\STM\STM32F407\Tim\TIM_TIxExternalClockConfig.f
+						IO\STM\STM32F407\Tim\TIM_SetIC4Prescaler(.f
+						IO\STM\STM32F407\Tim\TIM_SetIC3Prescaler.f
+						IO\STM\STM32F407\Tim\TIM_SetIC2Prescaler.f
+						IO\STM\STM32F407\Tim\TIM_SetIC1Prescaler.f
+						IO\STM\STM32F407\Tim\TIM_SelectSlaveMode.f
+						IO\STM\STM32F407\Tim\TIM_SelectOutputTrigger.f
+						IO\STM\STM32F407\Tim\TIM_SelectMasterSlaveMode.f
+						IO\STM\STM32F407\Tim\TIM_SelectInputTrigger.f
+						IO\STM\STM32F407\Tim\TIM_SelectHallSensor.f
+						IO\STM\STM32F407\Tim\TIM_SelectCOM.f
+						IO\STM\STM32F407\Tim\TIM_SelectCCDMA.f
+						IO\STM\STM32F407\Tim\TIM_RemapConfig.f
+						IO\STM\STM32F407\Tim\TIM_PWMIConfig.f
+						IO\STM\STM32F407\Tim\TIM_ITRxExternalClockConfig.f
+						IO\STM\STM32F407\Tim\TIM_ITConfig.f
+						IO\STM\STM32F407\Tim\TIM_InternalClockConfig.f
+						IO\STM\STM32F407\Tim\TIM_ICStructInit.f
+						IO\STM\STM32F407\Tim\TIM_ICInit.f
+						IO\STM\STM32F407\Tim\TIM_GetITStatus.f
+						IO\STM\STM32F407\Tim\TIM_GetFlagStatus.f
+						IO\STM\STM32F407\Tim\TIM_GetCapture4.f
+						IO\STM\STM32F407\Tim\TIM_GetCapture3.f
+						IO\STM\STM32F407\Tim\TIM_GetCapture2.f
+						IO\STM\STM32F407\Tim\TIM_GetCapture1.f
+						IO\STM\STM32F407\Tim\TIM_GenerateEvent.f
+						IO\STM\STM32F407\Tim\TIM_ETRConfig.f
+						IO\STM\STM32F407\Tim\TIM_ETRClockMode2Config.f
+						IO\STM\STM32F407\Tim\TIM_ETRClockMode1Config.f
+						IO\STM\STM32F407\Tim\TIM_EncoderInterfaceConfig.f
+						IO\STM\STM32F407\Tim\TIM_DMAConfig.f
+						IO\STM\STM32F407\Tim\TIM_DMACmd.f
+						IO\STM\STM32F407\Tim\TIM_CtrlPWMOutputs.f
+						IO\STM\STM32F407\Tim\TIM_ClearITPendingBit.f
+						IO\STM\STM32F407\Tim\TIM_ClearFlag.f
+						IO\STM\STM32F407\Tim\TIM_CCxNCmd.f
+						IO\STM\STM32F407\Tim\TIM_CCPreloadControl.f
+						IO\STM\STM32F407\Tim\TIM_BDTRStructInit.f
+						IO\STM\STM32F407\Tim\TIM_BDTRConfig.f
+						IO\STM\STM32F407\Tim\TI4_Config.f
+						IO\STM\STM32F407\Tim\TI3_Config.f
+						IO\STM\STM32F407\Tim\TI2_Config.f
+						IO\STM\STM32F407\Tim\TI1_Config.f
+					-RCC
+						IO\STM\STM32F407\RCC\RCC_APB2PeriphResetCmd.f
+						IO\STM\STM32F407\RCC\RCC_APB1PeriphResetCmd.f
+					+USART
+						IO\STM\STM32F407\USART\USART.f
+						IO\STM\STM32F407\USART\stm32f2xx_usart.c
+						IO\STM\STM32F407\USART\USART_Init.f
+						IO\STM\STM32F407\USART\USART_DeInit.f
+						IO\STM\STM32F407\USART\USART_WakeUpConfig.f
+						IO\STM\STM32F407\USART\USART_StructInit.f
+						IO\STM\STM32F407\USART\USART_SmartCardNACKCmd.f
+						IO\STM\STM32F407\USART\USART_SmartCardCmd.f
+						IO\STM\STM32F407\USART\USART_SetPrescaler.f
+						IO\STM\STM32F407\USART\USART_SetGuardTime.f
+						IO\STM\STM32F407\USART\USART_SetAddress.f
+						IO\STM\STM32F407\USART\USART_SendData.f
+						IO\STM\STM32F407\USART\USART_SendBreak.f
+						IO\STM\STM32F407\USART\USART_ReceiverWakeUpCmd.f
+						IO\STM\STM32F407\USART\USART_ReceiveData.f
+						IO\STM\STM32F407\USART\USART_OverSampling8Cmd.f
+						IO\STM\STM32F407\USART\USART_OneBitMethodCmd.f
+						IO\STM\STM32F407\USART\USART_LINCmd.f
+						IO\STM\STM32F407\USART\USART_LINBreakDetectLengthConfig.f
+						IO\STM\STM32F407\USART\USART_ITConfig.f
+						IO\STM\STM32F407\USART\USART_IrDAConfig.f
+						IO\STM\STM32F407\USART\USART_IrDACmd.f
+						IO\STM\STM32F407\USART\USART_HalfDuplexCmd.f
+						IO\STM\STM32F407\USART\USART_GetITStatus.f
+						IO\STM\STM32F407\USART\USART_GetFlagStatus.f
+						IO\STM\STM32F407\USART\USART_DMACmd.f
+						IO\STM\STM32F407\USART\USART_Cmd.f
+						IO\STM\STM32F407\USART\USART_ClockStructInit.f
+						IO\STM\STM32F407\USART\USART_ClockInit.f
+						IO\STM\STM32F407\USART\USART_ClearITPendingBit.f
+						IO\STM\STM32F407\USART\USART_ClearFlag.f
+					IO\STM\STM32F407\vector_table.f
+			+USART
+				IO\USART\USART.f
+				IO\USART\stm32f2xx_usart.c
+			-LCD
+				IO\LCD\LCD.F
+			-Keyboard
+				IO\Keyboard\Keyboard.F
 		-BIOS
 			-ISP
 			-IAP
-			BIOS\IO_device1.F
+			BIOS\debug.f
 		-.git
 			-hooks
 				.git\hooks\README.sample
@@ -685,7 +821,7 @@ ezForth
 			.git\ORIG_HEAD
 		-ASM
 			+Arm
-				-Arm7
+				+Arm7
 					ASM\Arm\Arm7\eForth.f
 				-thumb2
 					-ADC
@@ -788,7 +924,7 @@ ezForth
 			ASM\ASM.ppr
 			ASM\main_asm.f
 			ASM\make_asm.f
-		+FileSystem
+		-FileSystem
 			-BLOCK
 			-FAT32
 			FileSystem\FileSystem.mpp
@@ -857,70 +993,17 @@ ezForth
 			-Output
 				meta\Output\Output.f
 			-Table
-				meta\Table\ASCII_BIG_PATTERN_TABLE.f
 				meta\Table\ASCII_PATTERN_TABLE.f
-				meta\Table\Dummy_String.f
-			-VM
-				-Arm
-					meta\VM\Arm\Registers.f
-			meta\ARM7META.f
-			meta\Boot.f
-			meta\branching_constructs.f
-			meta\code_definition_header.f
-			meta\compiler_Branching_Looping.f
-			meta\Create_target_code_words.f
-			meta\create_target_image.f
-			meta\Including_Assembler.f
-			meta\Initialize_User_Variables.f
-			meta\Memory_Access.f
+			meta\Initialize.f
 			meta\Memory_Map.f
-			meta\MemoryMap.f
-			meta\meta.JPG
-			meta\Meta_Compiling.f
-			meta\META_main.f
-			meta\Metacompiling.f
-			meta\Metacompiling_Initialization.f
-			meta\Resolve_metacompiler_forward_references.f
+			meta\Including_Assembler.f
+			meta\branching_constructs.f
+			meta\compiler_Branching_Looping.f
+			meta\code_definition_header.f
+			meta\target_image.f
+			meta\target_code_words.f
 			meta\target_vocabularies.f
-			meta\Variabler.f
-			meta\Vocanulary_Operations.f
-		-meta-eforth
-			-Header
-				meta-eforth\Header\ELF.f
-			-Output
-				meta-eforth\Output\Output.f
-			-Table
-				meta-eforth\Table\ASCII_BIG_PATTERN_TABLE.f
-				meta-eforth\Table\ASCII_PATTERN_TABLE.f
-				meta-eforth\Table\Dummy_String.f
-			-VM
-				-Arm
-					meta-eforth\VM\Arm\Registers.f
-			meta-eforth\ARM7META.f
-			meta-eforth\Boot.f
-			meta-eforth\branching_constructs.f
-			meta-eforth\code_definition_header.f
-			meta-eforth\compiler_Branching_Looping.f
-			meta-eforth\Create_target_code_words.f
-			meta-eforth\create_target_image.f
-			meta-eforth\dir.bat
-			meta-eforth\dir.txt
-			meta-eforth\Including_Assembler.f
-			meta-eforth\Initialize_User_Variables.f
-			meta-eforth\Memory_Access.f
-			meta-eforth\Memory_Map.f
-			meta-eforth\MemoryMap.f
-			meta-eforth\meta.JPG
-			meta-eforth\meta.mpp
-			meta-eforth\meta.ppr
-			meta-eforth\Meta_Compiling.f
-			meta-eforth\meta_main.f
-			meta-eforth\Metacompiling.f
-			meta-eforth\Metacompiling_Initialization.f
-			meta-eforth\Resolve_metacompiler_forward_references.f
-			meta-eforth\target_vocabularies.f
-			meta-eforth\Variabler.f
-			meta-eforth\Vocanulary_Operations.f
+			meta\Boot.f
 		.gitattributes
 		.gitignore
 		ezForth.~ml
@@ -943,13 +1026,10 @@ ezForth
 		ezForth20131104pm0952.JPG
 		ezForth20131104pm0953.JPG
 		ezForth20131104pm0955.JPG
-		index.html
 		META_main.f
+		tree.htm
+		eForth.htm
+		index.html
 [Open project files]
-0=META_main.f
 [Selected Project Files]
 Main=
-Selected=META_main.f
-[META_main.f]
-TopLine=1
-Caret=1,1

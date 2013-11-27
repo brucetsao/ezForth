@@ -39,7 +39,7 @@ LDR  TOS,[SP,#4]         CONSTANT [SP+4]->TOS
 LDR  TOS,[TOS]           CONSTANT [TOS]->TOS
 LDR  IP,[IP]             CONSTANT [IP]->IP
 
-LDRB TOS,[TOS]          CONSTANT byte[TOS]->TOS
+LDRB TOS,[TOS]          CONSTANT  byte[TOS]->TOS
 
 MOV  TOS,#0             wCONSTANT 0->TOS
 MOV  RP,TOS             wCONSTANT TOS->RP
@@ -49,7 +49,7 @@ MOV  WP,#0              wCONSTANT 0->WP
 MOV  TOS,RP             wCONSTANT RP->TOS
 MOV  TOS,SP             wCONSTANT SP->TOS
 MOV  TOS,WP             wCONSTANT WP->TOS
-MOV  IP,LP             wCONSTANT LP->IP
+MOV  IP,LP              wCONSTANT LP->IP
 
 ORR.W  TOS,TOS,WP        CONSTANT TOS|WP->TOS
 
