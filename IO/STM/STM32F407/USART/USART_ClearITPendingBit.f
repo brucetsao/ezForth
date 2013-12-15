@@ -1,3 +1,15 @@
+: USART_ClearITPendingBit ( USART_TypeDef* USARTx, uint16_t USART_IT -- )
+  USART_IT USART_IT_CTS =
+  if
+     \  assert_param(IS_USART_1236_PERIPH(USARTx));
+  then
+  USART_IT  0x08  >>   bitpos !
+  0x01 bitpos w@  Lshift
+  itmask w@ not USARTx->SR w!
+  ; 
+
+
+\s
 void USART_ClearITPendingBit(USART_TypeDef* USARTx, uint16_t USART_IT)
 {
   uint16_t bitpos = 0x00, itmask = 0x00;

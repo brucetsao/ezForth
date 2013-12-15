@@ -1,3 +1,5 @@
+
+\s
 void USART_ClockStructInit(USART_ClockInitTypeDef* USART_ClockInitStruct)
 {
   /* USART_ClockInitStruct members default value */

@@ -17,7 +17,7 @@ ezForth
 		+IO
 			+STM
 				+STM32F407
-					-TIM
+					+TIM
 						IO\STM\STM32F407\Tim\TIM_DeInit.f
 						IO\STM\STM32F407\Tim\TIM_TimeBaseInit.f
 						IO\STM\STM32F407\Tim\TIM_TimeBaseStructInit.f
@@ -1031,5 +1031,38 @@ ezForth
 		eForth.htm
 		index.html
 [Open project files]
+0=IO\STM\STM32F407\USART\USART.f
+1=IO\STM\STM32F407\USART\USART_Init.f
+2=IO\STM\STM32F407\USART\USART_DeInit.f
+3=IO\STM\STM32F407\USART\stm32f2xx_usart.c
+4=IO\STM\STM32F407\USART\USART_ClearFlag.f
+5=IO\STM\STM32F407\USART\USART_ClearITPendingBit.f
+6=IO\STM\STM32F407\USART\USART_ClockInit.f
+7=IO\STM\STM32F407\USART\USART_ClockStructInit.f
 [Selected Project Files]
 Main=
+Selected=IO\STM\STM32F407\USART\USART_ClockStructInit.f
+[IO\STM\STM32F407\USART\USART.f]
+TopLine=3
+Caret=1,1
+[IO\STM\STM32F407\USART\USART_Init.f]
+TopLine=1
+Caret=1,1
+[IO\STM\STM32F407\USART\USART_DeInit.f]
+TopLine=1
+Caret=39,31
+[IO\STM\STM32F407\USART\stm32f2xx_usart.c]
+TopLine=1
+Caret=1,1
+[IO\STM\STM32F407\USART\USART_ClearFlag.f]
+TopLine=1
+Caret=17,4
+[IO\STM\STM32F407\USART\USART_ClearITPendingBit.f]
+TopLine=1
+Caret=28,8
+[IO\STM\STM32F407\USART\USART_ClockInit.f]
+TopLine=1
+Caret=4,4
+[IO\STM\STM32F407\USART\USART_ClockStructInit.f]
+TopLine=1
+Caret=1,9

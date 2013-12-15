@@ -1,3 +1,7 @@
+
+
+
+\s 
 void USART_ClockInit(USART_TypeDef* USARTx, USART_ClockInitTypeDef* USART_ClockInitStruct)
 {
   uint32_t tmpreg = 0x00;

@@ -1,3 +1,12 @@
+: USART_ClearFlag ( USART_TypeDef* USARTx, uint16_t USART_FLAG -- )
+  USART_FLAG USART_FLAG_CTS and
+  USART_FLAG_CTS
+  USART_FLAG not USARTx->SR w!
+  ;
+  
+
+
+\s
 void USART_ClearFlag(USART_TypeDef* USARTx, uint16_t USART_FLAG)
 {
   /* Check the parameters */
